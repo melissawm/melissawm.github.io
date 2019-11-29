@@ -1,15 +1,14 @@
-
 # SEO settings
-title: Simplest
-description: "A free Jekyll theme for download"
-keywords: "Jekyll, theme, free, download, SEO, blog, web"
-url: http://nandomoreira.me
+title: melissawm
+description: "Github page for melissawm"
+keywords: "melissawm, math, applied math, programming, python, LaTeX"
+url: https://melissawm.github.io
 baseurl: "/simplest"
-# baseurl: null
+#baseurl: null
 
-google_analytics: UA-52446115-1
-repo: http://github.com/nandomoreirame/simplest
-disqus_shortname: "nandothemes"
+#google_analytics: UA-52446115-1
+repo: http://github.com/melissawm/melissawm.github.io
+#disqus_shortname: "nandothemes"
 
 # Build settings
 permalink   : /:year/:title/
@@ -30,23 +29,23 @@ sass:
 
 # Author settings
 author:
-  name     : Fernando Moreira
-  job      : Frontend Engineer
-  bio      : "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
-  thumb    : /images/author.jpg
-  email    : nandomoreira.me@gmail.com
-  url      : http://nandomoreira.me
-  github   : http://github.com/nandomoreirame
-  twitter  : http://twitter.com/nandomoreirame
-  facebook : http://facebook.com/fernando.dev
-  linkedin : http://linkedin.com/in/nandomoreirame
+  name     : Melissa Weber Mendonça
+  job      : currently working as a Software Engineer
+  bio      : "I'm an applied mathematician, free software enthusiast, podcaster and mom. My pronouns are she/her/ela."
+  thumb    : /images/melissawm.jpg
+  email    : melissawm@gmail.com
+  url      : http://melissawm.github.io
+  github   : http://github.com/melissawm
+  twitter  : http://twitter.com/melissawm
+  #facebook : http://facebook.com/fernando.dev
+  linkedin : http://linkedin.com/in/axequalsb
 
 # social settings
 og_locale: "pt_BR"
 twitter_card: "summary_large_image"
-twitter_site: "@nandomoreirame"
+twitter_site: "@melissawm"
 
-gems:
+plugins:
   - bourbon
   - jekyll-paginate
 
