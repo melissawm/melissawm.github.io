@@ -1,5 +1,7 @@
-layout: page
+---
+layout: default
 title: "Home"
 permalink: /home/
+---
 
 # Teste index
