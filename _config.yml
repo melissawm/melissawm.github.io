@@ -3,8 +3,8 @@ title: melissawm
 description: "Github page for melissawm"
 keywords: "melissawm, math, applied math, programming, python, LaTeX"
 url: https://melissawm.github.io
-baseurl: "/"
-#baseurl: null
+#baseurl: "/"
+baseurl: null
 
 #google_analytics: UA-52446115-1
 repo: http://github.com/melissawm/melissawm.github.io
