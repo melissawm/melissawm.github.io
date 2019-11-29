@@ -4,8 +4,14 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I am a mathematician and software engineer located in Florianópolis, Brazil. I have a 5-year-old son and enjoy crocheting, knitting, cross-stitch embroidery and all sorts of crafts.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I have a B.S. in Mathematics and Scientific Computing by the Federal University of Santa Catarina (Brazil), M.S. in Mathematics by the same university and a Ph.D. in Applied Math by the Facultés Universitaires Notre Dame de la Paix, in Namur (Belgium) where I was advised by Professor Philippe Toint.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+I'm currently working at Quansight. At this time, I'm on a leave as a professor of the Department of Mathematics at the Federal University of Santa Catarina. 
+
+My interests include smooth optimization (mainly nonlinear programming), numerical analysis, the numerical solution of large-scale linear systems and the implementation of software for scientific computing.
+
+[Click here](http://lattes.cnpq.br/1275732441716682) for my CV.
+[Talks and software projects: github/melissawm](https://github.com/melissawm)
+[Slides and presentations for short courses and conferences (in portuguese)](http://mtm.ufsc.br/~melissa/materiais.html)
