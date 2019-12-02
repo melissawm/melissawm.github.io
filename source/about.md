@@ -13,5 +13,7 @@ I'm currently working at Quansight. At this time, I'm on a leave as a professor 
 My interests include smooth optimization (mainly nonlinear programming), numerical analysis, the numerical solution of large-scale linear systems and the implementation of software for scientific computing.
 
 [Click here](http://lattes.cnpq.br/1275732441716682) for my CV.
+
 [Talks and software projects: github/melissawm](https://github.com/melissawm)
+
 [Slides and presentations for short courses and conferences (in portuguese)](http://mtm.ufsc.br/~melissa/materiais.html)
