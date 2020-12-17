@@ -6,6 +6,10 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
+  <loc>https://melissawm.github.io/</loc>
+  <lastmod>2020-12-17T23:57:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://melissawm.github.io/2012/</loc>
   <lastmod>2020-12-17T23:15:00Z</lastmod>
  </url>
@@ -15,7 +19,7 @@
  </url>
  <url>
   <loc>https://melissawm.github.io/archive.html</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
+  <lastmod>2020-12-17T23:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/blog/</loc>
@@ -106,6 +110,10 @@
   <lastmod>2020-12-17T23:40:00Z</lastmod>
  </url>
  <url>
+  <loc>https://melissawm.github.io/pt_br/</loc>
+  <lastmod>2020-12-17T23:57:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://melissawm.github.io/pt_br/2012/</loc>
   <lastmod>2020-12-17T23:40:00Z</lastmod>
  </url>
@@ -115,7 +123,7 @@
  </url>
  <url>
   <loc>https://melissawm.github.io/pt_br/archive.html</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
+  <lastmod>2020-12-17T23:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/pt_br/blog/</loc>
