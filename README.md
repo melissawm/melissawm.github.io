@@ -3,8 +3,19 @@
 To edit, clone this repository and do
 
 ```bash
-$ gem install bundler
-$ bundle install
-$ jekyll build
-$ jekyll serve
+$ pip install nikola
+$ cd site/
+$ nikola build
+```
+
+To see a local instance of the site, run
+
+```bash
+$ nikola serve -b
+```
+
+To use a server with automatic rebuilds, run
+
+```bash
+$ nikola auto -b
 ```
