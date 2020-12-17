@@ -13,3 +13,9 @@ To see a local instance of the site, run
 ```bash
 $ nikola serve -b
 ```
+
+To use a server with automatic rebuilds, run
+
+```bash
+$ nikola auto -b
+```
