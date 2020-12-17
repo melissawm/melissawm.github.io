@@ -1,1 +1,4 @@
-.sass-cache
+.cache
+.doit.db
+__pycache__
+output
