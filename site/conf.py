@@ -254,7 +254,7 @@ PAGES = (
     ("pages/*.md", "", "page.tmpl"),
 )
 
-INDEX_PATH = "blog"
+# INDEX_PATH = "blog"
 
 # Below this point, everything is optional
 
