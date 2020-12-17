@@ -19,3 +19,11 @@ To use a server with automatic rebuilds, run
 ```bash
 $ nikola auto -b
 ```
+
+To deploy to gh-pages, do
+
+```bash
+$ nikola github_deploy
+```
+
+(this will deploy the rendered site to `master` and the source to the `src` branch.)
