@@ -97,7 +97,7 @@
 'render_galleries:output/galleries/demo/tesla4_lg.jpg', (187904, 279)
 'copy_assets:output/assets/css/code.css', (188416, 141)
 'copy_assets:output/assets/xml/rss.xsl', (188928, 401)
-'sitemap:output/sitemap.xml', (1055744, 15405)
+'sitemap:output/sitemap.xml', (1055744, 15409)
 'render_pages:output/posts/welcome-to-nikola/index.html', (199680, 6001)
 'copy_assets:output/assets/css/theme.css', (744448, 575)
 'copy_assets:output/assets/js/baguetteBox.min.js', (206336, 421)
