@@ -1,15 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ax=b</title><link>https://melissawm.github.io/</link><description>blog</description><atom:link href="https://melissawm.github.io/pt_br/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>pt_br</language><copyright>Contents © 2020 &lt;a href="mailto:melissawm@gmail.com"&gt;melissawm&lt;/a&gt; </copyright><lastBuildDate>Fri, 18 Dec 2020 02:47:44 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Home</title><link>https://melissawm.github.io/pt_br/blog/welcome-to-axequalsb/</link><dc:creator>melissawm</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
-&lt;img alt="Chalkboard, original image by PXHere" class="thumbnail" src="https://melissawm.github.io/pt_br/blog/welcome-to-axequalsb/images/chalkboard.png"&gt;
-&lt;/div&gt;
-&lt;p&gt;If you can see this in a web browser, it means you managed to install Nikola,
-and build a site using it. Congratulations!&lt;/p&gt;
-&lt;p&gt;Next steps:&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;&lt;p&gt;&lt;a class="reference external" href="https://melissawm.github.io/handbook/"&gt;Read the manual&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a class="reference external" href="https://getnikola.com"&gt;Visit the Nikola website to learn more&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a class="reference external" href="https://melissawm.github.io/pt_br/galleries/demo/"&gt;See a demo photo gallery&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a class="reference external" href="https://melissawm.github.io/listings-demo/"&gt;See a demo listing&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a class="reference external" href="https://melissawm.github.io/dr-nikolas-vendetta/"&gt;See a demo of a longer text&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Send feedback to &lt;a class="reference external" href="mailto:info@getnikola.com"&gt;info@getnikola.com&lt;/a&gt;!&lt;/p&gt;&lt;/div&gt;</description><guid>https://melissawm.github.io/pt_br/blog/welcome-to-axequalsb/</guid><pubDate>Fri, 18 Dec 2020 01:00:00 GMT</pubDate></item></channel></rss>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ax=b</title><link>https://melissawm.github.io/</link><description>blog</description><atom:link href="https://melissawm.github.io/pt_br/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>pt_br</language><copyright>Contents © 2020 &lt;a href="mailto:melissawm@gmail.com"&gt;melissawm&lt;/a&gt; </copyright><lastBuildDate>Fri, 18 Dec 2020 14:19:04 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs></channel></rss>
