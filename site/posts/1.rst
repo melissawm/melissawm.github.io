@@ -7,7 +7,7 @@
 .. description:
 .. category: nikola
 
-.. figure:: ../images/chalkboard.png
+.. figure:: /images/chalkboard.png
    :class: thumbnail
    :alt: Chalkboard, original image by PXHere
 
