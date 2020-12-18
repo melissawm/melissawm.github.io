@@ -1,13 +1,13 @@
 .. title: Home
 .. slug: welcome-to-axequalsb
-.. date: 2020-12-17 22:00:00 UTC-03:00
+.. date: 2020-12-18 12:00:00 UTC-03:00
 .. tags: nikola, python, demo, blog
 .. author: melissawm
 .. link: https://melissawm.github.io
 .. description:
 .. category: nikola
 
-.. figure:: images/chalkboard.png
+.. figure:: ../images/chalkboard.png
    :class: thumbnail
    :alt: Chalkboard, original image by PXHere
 
