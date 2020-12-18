@@ -189,7 +189,7 @@
 'render_pages:output/pages/about-nikola/index.html', (384000, 6527)
 'render_galleries:output/galleries/demo/tesla_lightning2_lg.jpg', (390656, 299)
 'copy_files:output/favicon.ico', (391168, 245)
-'create_bundles:output/assets/js/all-nocdn.js', (391680, 801)
+'create_bundles:output/assets/js/all-nocdn.js', (391680, 767)
 'render_sources', (392704, 56)
 'render_pages:output/about-nikola/index.html', (899584, 6874)
 'render_sources:output/pt_br/quickstart/index.rst', (399872, 248)
