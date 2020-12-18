@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1608305476.22929
+_modified_time = 1608305588.3171082
 _enable_loop = True
 _template_filename = 'themes/jidn/templates/post.tmpl'
 _template_uri = 'post.tmpl'
@@ -73,23 +73,23 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
-        def bio():
-            return render_bio(context._locals(__M_locals))
-        def content():
-            return render_content(context._locals(__M_locals))
-        parent = context.get('parent', UNDEFINED)
-        JIDN = context.get('JIDN', UNDEFINED)
-        helper = _mako_get_namespace(context, 'helper')
-        math = _mako_get_namespace(context, 'math')
-        messages = context.get('messages', UNDEFINED)
-        comments = _mako_get_namespace(context, 'comments')
         def sharing():
             return render_sharing(context._locals(__M_locals))
+        comments = _mako_get_namespace(context, 'comments')
+        JIDN = context.get('JIDN', UNDEFINED)
+        def bio():
+            return render_bio(context._locals(__M_locals))
+        messages = context.get('messages', UNDEFINED)
+        parent = context.get('parent', UNDEFINED)
         def extra_head():
             return render_extra_head(context._locals(__M_locals))
         site_has_comments = context.get('site_has_comments', UNDEFINED)
-        post = context.get('post', UNDEFINED)
+        def content():
+            return render_content(context._locals(__M_locals))
         pheader = _mako_get_namespace(context, 'pheader')
+        helper = _mako_get_namespace(context, 'helper')
+        post = context.get('post', UNDEFINED)
+        math = _mako_get_namespace(context, 'math')
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -125,12 +125,12 @@ def render_body(context,**pageargs):
 def render_extra_head(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
-        helper = _mako_get_namespace(context, 'helper')
         def extra_head():
             return render_extra_head(context)
-        parent = context.get('parent', UNDEFINED)
+        helper = _mako_get_namespace(context, 'helper')
         post = context.get('post', UNDEFINED)
         math = _mako_get_namespace(context, 'math')
+        parent = context.get('parent', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n    ')
         __M_writer(str(parent.extra_head()))
@@ -173,18 +173,18 @@ def render_extra_head(context,**pageargs):
 def render_content(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
-        def bio():
-            return render_bio(context)
-        def content():
-            return render_content(context)
-        messages = context.get('messages', UNDEFINED)
-        math = _mako_get_namespace(context, 'math')
-        comments = _mako_get_namespace(context, 'comments')
         def sharing():
             return render_sharing(context)
+        comments = _mako_get_namespace(context, 'comments')
+        def bio():
+            return render_bio(context)
+        messages = context.get('messages', UNDEFINED)
         site_has_comments = context.get('site_has_comments', UNDEFINED)
-        post = context.get('post', UNDEFINED)
+        def content():
+            return render_content(context)
         pheader = _mako_get_namespace(context, 'pheader')
+        post = context.get('post', UNDEFINED)
+        math = _mako_get_namespace(context, 'math')
         __M_writer = context.writer()
         __M_writer('\n<article class="post-')
         __M_writer(str(post.meta('type')))
@@ -217,9 +217,9 @@ def render_content(context,**pageargs):
 def render_sharing(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
+        post = context.get('post', UNDEFINED)
         def sharing():
             return render_sharing(context)
-        post = context.get('post', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n<aside class="sharing no-print">\n    <a href="#content" aria-label="Post beginning">\n       <i class="fa fa-2x fa-fw fa-arrow-circle-up" aria-hidden="true" title="Post beginning" />\n    </a>\n')
         if post.prev_post:
@@ -255,10 +255,10 @@ def render_sharing(context,**pageargs):
 def render_bio(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
+        JIDN = context.get('JIDN', UNDEFINED)
         def bio():
             return render_bio(context)
         post = context.get('post', UNDEFINED)
-        JIDN = context.get('JIDN', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n<div itemprop="author" itemscope itemtype="http://schema.org/Person">\n')
         if post.author() in JIDN:
