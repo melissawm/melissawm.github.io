@@ -159,7 +159,7 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "mdl"
+THEME = "jidn"
 
 # A theme color. In default themes, it might be displayed by some browsers as
 # the browser UI color (eg. Chrome on Android). Other themes might also use it
@@ -1398,7 +1398,15 @@ WARN_ABOUT_TAG_METADATA = False
 
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
-GLOBAL_CONTEXT = {}
+GLOBAL_CONTEXT = { "JIDN" : { BLOG_AUTHOR: {
+    "image": "images/avatar.jpg",
+    "email": BLOG_EMAIL,
+    "bio": """Mathematician, feminist, free software enthusiast, recovering academic, geek, mom. She/her/ela.""",
+    "social": (
+        "https:///twitter.com/melissawm",
+        "https://linkedin.com/in/axequalsb",
+    ),
+}}}
 
 # Add functions here and they will be called with template
 # GLOBAL_CONTEXT as parameter when the template is about to be
