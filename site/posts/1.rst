@@ -15,7 +15,7 @@ Hi there!
 
 I am a software engineer at Quansight_, working on NumPy_ and other open source projects. I care deeply about teaching, mentoring, and have been involved in the Python community for some time. You can find most of my talk slides on github; feel free to use those according to the licenses stated in each repo. I am interested in math, programming, free/open source software and communities, crafts and parenting. My pronouns are she/her.
 	 
-* `Twitter: @melissawm<https://twitter.com/melissawm>`_
+* `Twitter: \@melissawm<https://twitter.com/melissawm>`_
 * LinkedIn_
 
 Reach out at `melissawm@gmail.com`!

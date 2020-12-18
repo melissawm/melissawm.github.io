@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1608305320.7937443
+_modified_time = 1608305476.0880263
 _enable_loop = True
 _template_filename = 'themes/jidn/templates/base_header.tmpl'
 _template_uri = 'base_header.tmpl'
@@ -45,14 +45,14 @@ def render_html_header(context):
     try:
         _import_ns = {}
         _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
-        search_form = _import_ns.get('search_form', context.get('search_form', UNDEFINED))
-        def html_navigation_links():
-            return render_html_navigation_links(context)
         def html_site_title():
             return render_html_site_title(context)
+        def html_navigation_links():
+            return render_html_navigation_links(context)
         def html_translation_header():
             return render_html_translation_header(context)
         template_hooks = _import_ns.get('template_hooks', context.get('template_hooks', UNDEFINED))
+        search_form = _import_ns.get('search_form', context.get('search_form', UNDEFINED))
         __M_writer = context.writer()
         __M_writer('\n    <header id="header" role="banner">\n        ')
         __M_writer(str(html_site_title()))
@@ -78,10 +78,10 @@ def render_html_site_title(context):
     try:
         _import_ns = {}
         _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
-        blog_title = _import_ns.get('blog_title', context.get('blog_title', UNDEFINED))
-        lang = _import_ns.get('lang', context.get('lang', UNDEFINED))
         _link = _import_ns.get('_link', context.get('_link', UNDEFINED))
+        blog_title = _import_ns.get('blog_title', context.get('blog_title', UNDEFINED))
         abs_link = _import_ns.get('abs_link', context.get('abs_link', UNDEFINED))
+        lang = _import_ns.get('lang', context.get('lang', UNDEFINED))
         __M_writer = context.writer()
         __M_writer('\n    <h2 id="brand" class="masthead-title">\n      <a href="')
         __M_writer(str(abs_link(_link("root", None, lang))))
@@ -127,8 +127,8 @@ def render_html_translation_header(context):
         _import_ns = {}
         _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
         base = _mako_get_namespace(context, 'base')
-        messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
         len = _import_ns.get('len', context.get('len', UNDEFINED))
+        messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
         translations = _import_ns.get('translations', context.get('translations', UNDEFINED))
         __M_writer = context.writer()
         __M_writer('\n')
