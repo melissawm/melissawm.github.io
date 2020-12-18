@@ -1,19 +1,27 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<html prefix="" lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Theming Nikola | Ax=b</title>
-<link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
-<link href="../assets/css/ipython.min.css" rel="stylesheet" type="text/css">
-<link href="../assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-<meta name="theme-color" content="#5670d4">
-<meta name="generator" content="Nikola (getnikola.com)">
-<link rel="alternate" type="application/rss+xml" title="RSS (en)" hreflang="en" href="../rss.xml">
-<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" hreflang="pt_br" href="../pt_br/rss.xml">
+<link href="../assets/css/all.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="../rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" href="../pt_br/rss.xml">
 <link rel="canonical" href="https://melissawm.github.io/theming/">
-<!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]--><meta name="author" content="The Nikola Team">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+    },
+    displayAlign: 'center', // Change this to 'left' if you want left-aligned equations.
+    "HTML-CSS": {
+        styles: {'.MathJax_Display': {"margin": 0}}
+    }
+});
+</script><!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]--><meta name="author" content="The Nikola Team">
 <meta property="og:site_name" content="Ax=b">
 <meta property="og:title" content="Theming Nikola">
 <meta property="og:url" content="https://melissawm.github.io/theming/">
@@ -36,63 +44,39 @@ Customizing themes to user col">
 <link rel="alternate" hreflang="pt_br" href="../pt_br/theming/">
 </head>
 <body>
-<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+    <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+            styles, `#sidebar-checkbox` for behavior. -->
+    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox"><!-- Toggleable sidebar --><div class="sidebar" id="sidebar">
 
-<!-- Header and menu bar -->
-<div class="container">
-      <header class="blog-header py-3"><div class="row nbb-header align-items-center">
-          <div class="col-md-3 col-xs-2 col-sm-2" style="width: auto;">
-            <button class="navbar-toggler navbar-light bg-light nbb-navbar-toggler" type="button" data-toggle="collapse" data-target=".bs-nav-collapsible" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse bs-nav-collapsible bootblog4-search-form-holder">
-                
-            </div>
+        <nav role="navigation" class="sidebar-nav"><a class="sidebar-nav-item" href="../"><i class="fa fa-2x fa-fw fa-home"></i> Home</a>
+          <a class="sidebar-nav-item" href="../blog"><i class="fa fa-2x fa-fw fa-user-circle"></i> Blog</a>
+        </nav><nav id="menu" role="navigation" class="sidebar-nav"><a class="sidebar-nav-item" href="../">Home</a>
+        <a class="sidebar-nav-item" href="../blog/">Blog</a>
+        <a class="sidebar-nav-item" href="../about/">About</a>
+    
+    
+    </nav>
+</div>
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          
+    <h2 id="brand" class="masthead-title">
+      <a href="https://melissawm.github.io/" title="Ax=b" rel="home">Ax=b</a>
+    </h2>
+
         </div>
-          <div class="col-md-6 col-xs-10 col-sm-10 bootblog4-brand" style="width: auto;">
-            <a class="navbar-brand blog-header-logo text-dark" href="../">
+      </div>
 
-            <span id="blog-title">Ax=b</span>
-        </a>
-          </div>
-            <div class="col-md-3 justify-content-end align-items-center bs-nav-collapsible collapse flex-collapse bootblog4-right-nav">
-            <nav class="navbar navbar-light bg-white"><ul class="navbar-nav bootblog4-right-nav">
-<li class="nav-item"><a href="../pt_br/" rel="alternate" hreflang="pt_br" class="nav-link">Português</a></li>
-
-                    
-                    
-
-                    
-            </ul></nav>
-</div>
-    </div>
-</header><nav class="navbar navbar-expand-md navbar-light bg-white static-top"><div class="collapse navbar-collapse bs-nav-collapsible" id="bs-navbar">
-            <ul class="navbar-nav nav-fill d-flex w-100">
-<li class="nav-item">
-<a href="../" class="nav-link">Home</a>
-                </li>
-<li class="nav-item">
-<a href="../blog/" class="nav-link">Blog</a>
-                </li>
-<li class="nav-item">
-<a href="../about/" class="nav-link">About</a>
-
-                
-            </li>
-</ul>
-</div>
-<!-- /.navbar-collapse -->
-</nav>
-</div>
-
-<div class="container" id="content" role="main">
-    <div class="body-content">
-        <!--Body content-->
+      <div class="container content" id="content">
         
-        
-        
-<article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Theming Nikola</a></h1>
-
+<article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="post-title p-name entry-title" itemprop="headline">
+      <a href="https://melissawm.github.io/theming/" class="u-url">Theming Nikola</a>
+</h1>
         
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
@@ -176,14 +160,14 @@ older).</p>
 <dd>
 <p>A <a class="reference external" href="https://docs.python.org/3/library/configparser.html">config</a> file
 containing a list of files to be turned into bundles. For example:</p>
-<pre class="code ini"><a name="rest_code_54dbb31dc5014ea0abff110312c40c05-1"></a><span class="na">assets/css/all.css</span><span class="o">=</span><span class="s"></span>
-<a name="rest_code_54dbb31dc5014ea0abff110312c40c05-2"></a><span class="s">    bootstrap.min.css,</span>
-<a name="rest_code_54dbb31dc5014ea0abff110312c40c05-3"></a><span class="s">    rst_base.css,</span>
-<a name="rest_code_54dbb31dc5014ea0abff110312c40c05-4"></a><span class="s">    nikola_rst.css,</span>
-<a name="rest_code_54dbb31dc5014ea0abff110312c40c05-5"></a><span class="s">    code.css,</span>
-<a name="rest_code_54dbb31dc5014ea0abff110312c40c05-6"></a><span class="s">    baguetteBox.min.css,</span>
-<a name="rest_code_54dbb31dc5014ea0abff110312c40c05-7"></a><span class="s">    theme.css,</span>
-<a name="rest_code_54dbb31dc5014ea0abff110312c40c05-8"></a><span class="s">    custom.css,</span>
+<pre class="code ini"><a name="rest_code_b0f538016a514ff0b1b838e496ad78e0-1"></a><span class="na">assets/css/all.css</span><span class="o">=</span><span class="s"></span>
+<a name="rest_code_b0f538016a514ff0b1b838e496ad78e0-2"></a><span class="s">    bootstrap.min.css,</span>
+<a name="rest_code_b0f538016a514ff0b1b838e496ad78e0-3"></a><span class="s">    rst_base.css,</span>
+<a name="rest_code_b0f538016a514ff0b1b838e496ad78e0-4"></a><span class="s">    nikola_rst.css,</span>
+<a name="rest_code_b0f538016a514ff0b1b838e496ad78e0-5"></a><span class="s">    code.css,</span>
+<a name="rest_code_b0f538016a514ff0b1b838e496ad78e0-6"></a><span class="s">    baguetteBox.min.css,</span>
+<a name="rest_code_b0f538016a514ff0b1b838e496ad78e0-7"></a><span class="s">    theme.css,</span>
+<a name="rest_code_b0f538016a514ff0b1b838e496ad78e0-8"></a><span class="s">    custom.css,</span>
 </pre>
 <p>This creates a file called "assets/css/all.css" in your output that is the
 combination of all the other file paths, relative to the output file.
@@ -200,22 +184,22 @@ variable, which in turn is set by the <code class="docutils literal">USE_BUNDLES
 <p>As of Nikola v7.8.6, Nikola uses meta files for themes. Those are INI files,
 with the same name as your theme, and a <code class="docutils literal">.theme</code> extension, eg.
 <code class="docutils literal">bootstrap3.theme</code>. Here is an example, from the bootstrap3 theme:</p>
-<pre class="code ini"><a name="rest_code_bdad94eb188b486b810653b94f693b56-1"></a><span class="k">[Theme]</span>
-<a name="rest_code_bdad94eb188b486b810653b94f693b56-2"></a><span class="na">engine</span> <span class="o">=</span> <span class="s">mako</span>
-<a name="rest_code_bdad94eb188b486b810653b94f693b56-3"></a><span class="na">parent</span> <span class="o">=</span> <span class="s">base</span>
-<a name="rest_code_bdad94eb188b486b810653b94f693b56-4"></a><span class="na">author</span> <span class="o">=</span> <span class="s">The Nikola Contributors</span>
-<a name="rest_code_bdad94eb188b486b810653b94f693b56-5"></a><span class="na">author_url</span> <span class="o">=</span> <span class="s">https://getnikola.com/</span>
-<a name="rest_code_bdad94eb188b486b810653b94f693b56-6"></a><span class="na">based_on</span> <span class="o">=</span> <span class="s">Bootstrap 3 &lt;http://getbootstrap.com/&gt;</span>
-<a name="rest_code_bdad94eb188b486b810653b94f693b56-7"></a><span class="na">license</span> <span class="o">=</span> <span class="s">MIT</span>
-<a name="rest_code_bdad94eb188b486b810653b94f693b56-8"></a><span class="na">tags</span> <span class="o">=</span> <span class="s">bootstrap</span>
-<a name="rest_code_bdad94eb188b486b810653b94f693b56-9"></a>
-<a name="rest_code_bdad94eb188b486b810653b94f693b56-10"></a><span class="k">[Family]</span>
-<a name="rest_code_bdad94eb188b486b810653b94f693b56-11"></a><span class="na">family</span> <span class="o">=</span> <span class="s">bootstrap3</span>
-<a name="rest_code_bdad94eb188b486b810653b94f693b56-12"></a><span class="na">jinja_version</span> <span class="o">=</span> <span class="s">bootstrap3-jinja</span>
-<a name="rest_code_bdad94eb188b486b810653b94f693b56-13"></a><span class="na">variants</span> <span class="o">=</span> <span class="s">bootstrap3-gradients, bootstrap3-gradients-jinja</span>
-<a name="rest_code_bdad94eb188b486b810653b94f693b56-14"></a>
-<a name="rest_code_bdad94eb188b486b810653b94f693b56-15"></a><span class="k">[Nikola]</span>
-<a name="rest_code_bdad94eb188b486b810653b94f693b56-16"></a><span class="na">bootswatch</span> <span class="o">=</span> <span class="s">True</span>
+<pre class="code ini"><a name="rest_code_3963d7c6a0c94a10a419f9fda8d1f9fa-1"></a><span class="k">[Theme]</span>
+<a name="rest_code_3963d7c6a0c94a10a419f9fda8d1f9fa-2"></a><span class="na">engine</span> <span class="o">=</span> <span class="s">mako</span>
+<a name="rest_code_3963d7c6a0c94a10a419f9fda8d1f9fa-3"></a><span class="na">parent</span> <span class="o">=</span> <span class="s">base</span>
+<a name="rest_code_3963d7c6a0c94a10a419f9fda8d1f9fa-4"></a><span class="na">author</span> <span class="o">=</span> <span class="s">The Nikola Contributors</span>
+<a name="rest_code_3963d7c6a0c94a10a419f9fda8d1f9fa-5"></a><span class="na">author_url</span> <span class="o">=</span> <span class="s">https://getnikola.com/</span>
+<a name="rest_code_3963d7c6a0c94a10a419f9fda8d1f9fa-6"></a><span class="na">based_on</span> <span class="o">=</span> <span class="s">Bootstrap 3 &lt;http://getbootstrap.com/&gt;</span>
+<a name="rest_code_3963d7c6a0c94a10a419f9fda8d1f9fa-7"></a><span class="na">license</span> <span class="o">=</span> <span class="s">MIT</span>
+<a name="rest_code_3963d7c6a0c94a10a419f9fda8d1f9fa-8"></a><span class="na">tags</span> <span class="o">=</span> <span class="s">bootstrap</span>
+<a name="rest_code_3963d7c6a0c94a10a419f9fda8d1f9fa-9"></a>
+<a name="rest_code_3963d7c6a0c94a10a419f9fda8d1f9fa-10"></a><span class="k">[Family]</span>
+<a name="rest_code_3963d7c6a0c94a10a419f9fda8d1f9fa-11"></a><span class="na">family</span> <span class="o">=</span> <span class="s">bootstrap3</span>
+<a name="rest_code_3963d7c6a0c94a10a419f9fda8d1f9fa-12"></a><span class="na">jinja_version</span> <span class="o">=</span> <span class="s">bootstrap3-jinja</span>
+<a name="rest_code_3963d7c6a0c94a10a419f9fda8d1f9fa-13"></a><span class="na">variants</span> <span class="o">=</span> <span class="s">bootstrap3-gradients, bootstrap3-gradients-jinja</span>
+<a name="rest_code_3963d7c6a0c94a10a419f9fda8d1f9fa-14"></a>
+<a name="rest_code_3963d7c6a0c94a10a419f9fda8d1f9fa-15"></a><span class="k">[Nikola]</span>
+<a name="rest_code_3963d7c6a0c94a10a419f9fda8d1f9fa-16"></a><span class="na">bootswatch</span> <span class="o">=</span> <span class="s">True</span>
 </pre>
 <p>The following keys are currently supported:</p>
 <ul>
@@ -449,11 +433,11 @@ altered in the HSL colorspace through the function
 <code class="docutils literal">color_hsl_adjust_hex(hex_string, adjust_h, adjust_s, adjust_l)</code>.
 Adjustments are given in values between 1.0 and -1.0. For example, the theme
 color can be made lighter using this code:</p>
-<pre class="code html+mako"><a name="rest_code_5073a82bcc9c41f9993dc9ef9f2959e3-1"></a><span class="c">&lt;!-- Mako --&gt;</span>
-<a name="rest_code_5073a82bcc9c41f9993dc9ef9f2959e3-2"></a><span class="p">&lt;</span><span class="nt">span</span> <span class="na">style</span><span class="o">=</span><span class="s">"color: </span><span class="cp">${</span><span class="n">color_hsl_adjust_hex</span><span class="p">(</span><span class="n">theme_color</span><span class="p">,</span> <span class="n">adjust_l</span><span class="o">=</span><span class="mf">0.05</span><span class="p">)</span><span class="cp">}</span><span class="s">"</span><span class="p">&gt;</span>
+<pre class="code html+mako"><a name="rest_code_bb3f164a17f04c32af8d8fc5890ff79f-1"></a><span class="c">&lt;!-- Mako --&gt;</span>
+<a name="rest_code_bb3f164a17f04c32af8d8fc5890ff79f-2"></a><span class="p">&lt;</span><span class="nt">span</span> <span class="na">style</span><span class="o">=</span><span class="s">"color: </span><span class="cp">${</span><span class="n">color_hsl_adjust_hex</span><span class="p">(</span><span class="n">theme_color</span><span class="p">,</span> <span class="n">adjust_l</span><span class="o">=</span><span class="mf">0.05</span><span class="p">)</span><span class="cp">}</span><span class="s">"</span><span class="p">&gt;</span>
 </pre>
-<pre class="code html+jinja"><a name="rest_code_76df68727bef4014b312a61bc750bd68-1"></a><span class="c">&lt;!-- Jinja2 --&gt;</span>
-<a name="rest_code_76df68727bef4014b312a61bc750bd68-2"></a><span class="p">&lt;</span><span class="nt">span</span> <span class="na">style</span><span class="o">=</span><span class="s">"color: </span><span class="cp">{{</span> <span class="nv">color_hsl_adjust_hex</span><span class="o">(</span><span class="nv">theme_color</span><span class="o">,</span> <span class="nv">adjust_l</span><span class="o">=</span><span class="m">0.05</span><span class="o">)</span> <span class="cp">}}</span><span class="s">"</span><span class="p">&gt;</span>
+<pre class="code html+jinja"><a name="rest_code_543f7f49b4d74342a665aade9d5b7c21-1"></a><span class="c">&lt;!-- Jinja2 --&gt;</span>
+<a name="rest_code_543f7f49b4d74342a665aade9d5b7c21-2"></a><span class="p">&lt;</span><span class="nt">span</span> <span class="na">style</span><span class="o">=</span><span class="s">"color: </span><span class="cp">{{</span> <span class="nv">color_hsl_adjust_hex</span><span class="o">(</span><span class="nv">theme_color</span><span class="o">,</span> <span class="nv">adjust_l</span><span class="o">=</span><span class="m">0.05</span><span class="o">)</span> <span class="cp">}}</span><span class="s">"</span><span class="p">&gt;</span>
 </pre>
 </div>
 <div class="section" id="identifying-and-customizing-different-kinds-of-pages-with-a-shared-template">
@@ -466,63 +450,63 @@ these contexts.</p>
 <p>Example of conditionally loading different resources on all index pages
 (archives, author pages, and tag pages), and others again to the front page
 and in every post pages:</p>
-<pre class="code html+mako"><a name="rest_code_20056dc92eef4c99a9114258ad3eb74f-1"></a><span class="c">&lt;!-- Mako --&gt;</span>
-<a name="rest_code_20056dc92eef4c99a9114258ad3eb74f-2"></a><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
-<a name="rest_code_20056dc92eef4c99a9114258ad3eb74f-3"></a>    …
-<a name="rest_code_20056dc92eef4c99a9114258ad3eb74f-4"></a>    <span class="cp">%</span> <span class="k">if</span> <span class="s1">'index'</span> <span class="ow">in</span> <span class="n">pagekind</span><span class="p">:</span>
-<a name="rest_code_20056dc92eef4c99a9114258ad3eb74f-5"></a>        <span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">"/assets/css/multicolumn.css"</span> <span class="na">rel</span><span class="o">=</span><span class="s">"stylesheet"</span><span class="p">&gt;</span>
-<a name="rest_code_20056dc92eef4c99a9114258ad3eb74f-6"></a>    <span class="cp">%</span><span class="k"> endif</span>
-<a name="rest_code_20056dc92eef4c99a9114258ad3eb74f-7"></a>    <span class="cp">%</span> <span class="k">if</span> <span class="s1">'front_page'</span> <span class="ow">in</span> <span class="n">pagekind</span><span class="p">:</span>
-<a name="rest_code_20056dc92eef4c99a9114258ad3eb74f-8"></a>        <span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">"/assets/css/fancy_homepage.css"</span> <span class="na">rel</span><span class="o">=</span><span class="s">"stylesheet"</span><span class="p">&gt;</span>
-<a name="rest_code_20056dc92eef4c99a9114258ad3eb74f-9"></a>        <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">"/assets/js/post_carousel.js"</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-<a name="rest_code_20056dc92eef4c99a9114258ad3eb74f-10"></a>    <span class="cp">%</span><span class="k"> endif</span>
-<a name="rest_code_20056dc92eef4c99a9114258ad3eb74f-11"></a>    <span class="cp">%</span> <span class="k">if</span> <span class="s1">'post_page'</span> <span class="ow">in</span> <span class="n">pagekind</span><span class="p">:</span>
-<a name="rest_code_20056dc92eef4c99a9114258ad3eb74f-12"></a>        <span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">"/assets/css/article.css"</span> <span class="na">rel</span><span class="o">=</span><span class="s">"stylesheet"</span><span class="p">&gt;</span>
-<a name="rest_code_20056dc92eef4c99a9114258ad3eb74f-13"></a>        <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">"/assets/js/comment_system.js"</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-<a name="rest_code_20056dc92eef4c99a9114258ad3eb74f-14"></a>    <span class="cp">%</span><span class="k"> endif</span>
-<a name="rest_code_20056dc92eef4c99a9114258ad3eb74f-15"></a><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<pre class="code html+mako"><a name="rest_code_373c153527f24dfd9ca6dcc405c19d5c-1"></a><span class="c">&lt;!-- Mako --&gt;</span>
+<a name="rest_code_373c153527f24dfd9ca6dcc405c19d5c-2"></a><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+<a name="rest_code_373c153527f24dfd9ca6dcc405c19d5c-3"></a>    …
+<a name="rest_code_373c153527f24dfd9ca6dcc405c19d5c-4"></a>    <span class="cp">%</span> <span class="k">if</span> <span class="s1">'index'</span> <span class="ow">in</span> <span class="n">pagekind</span><span class="p">:</span>
+<a name="rest_code_373c153527f24dfd9ca6dcc405c19d5c-5"></a>        <span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">"/assets/css/multicolumn.css"</span> <span class="na">rel</span><span class="o">=</span><span class="s">"stylesheet"</span><span class="p">&gt;</span>
+<a name="rest_code_373c153527f24dfd9ca6dcc405c19d5c-6"></a>    <span class="cp">%</span><span class="k"> endif</span>
+<a name="rest_code_373c153527f24dfd9ca6dcc405c19d5c-7"></a>    <span class="cp">%</span> <span class="k">if</span> <span class="s1">'front_page'</span> <span class="ow">in</span> <span class="n">pagekind</span><span class="p">:</span>
+<a name="rest_code_373c153527f24dfd9ca6dcc405c19d5c-8"></a>        <span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">"/assets/css/fancy_homepage.css"</span> <span class="na">rel</span><span class="o">=</span><span class="s">"stylesheet"</span><span class="p">&gt;</span>
+<a name="rest_code_373c153527f24dfd9ca6dcc405c19d5c-9"></a>        <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">"/assets/js/post_carousel.js"</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<a name="rest_code_373c153527f24dfd9ca6dcc405c19d5c-10"></a>    <span class="cp">%</span><span class="k"> endif</span>
+<a name="rest_code_373c153527f24dfd9ca6dcc405c19d5c-11"></a>    <span class="cp">%</span> <span class="k">if</span> <span class="s1">'post_page'</span> <span class="ow">in</span> <span class="n">pagekind</span><span class="p">:</span>
+<a name="rest_code_373c153527f24dfd9ca6dcc405c19d5c-12"></a>        <span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">"/assets/css/article.css"</span> <span class="na">rel</span><span class="o">=</span><span class="s">"stylesheet"</span><span class="p">&gt;</span>
+<a name="rest_code_373c153527f24dfd9ca6dcc405c19d5c-13"></a>        <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">"/assets/js/comment_system.js"</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<a name="rest_code_373c153527f24dfd9ca6dcc405c19d5c-14"></a>    <span class="cp">%</span><span class="k"> endif</span>
+<a name="rest_code_373c153527f24dfd9ca6dcc405c19d5c-15"></a><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
 </pre>
-<pre class="code html+jinja"><a name="rest_code_5111d6dc37114cdfa42368f3996b5bba-1"></a><span class="c">&lt;!-- Jinja2 --&gt;</span>
-<a name="rest_code_5111d6dc37114cdfa42368f3996b5bba-2"></a><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
-<a name="rest_code_5111d6dc37114cdfa42368f3996b5bba-3"></a>    …
-<a name="rest_code_5111d6dc37114cdfa42368f3996b5bba-4"></a>    <span class="cp">{%</span> <span class="k">if</span> <span class="s1">'index'</span> <span class="k">in</span> <span class="nv">pagekind</span> <span class="cp">%}</span>
-<a name="rest_code_5111d6dc37114cdfa42368f3996b5bba-5"></a>        <span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">"/assets/css/multicolumn.css"</span> <span class="na">rel</span><span class="o">=</span><span class="s">"stylesheet"</span><span class="p">&gt;</span>
-<a name="rest_code_5111d6dc37114cdfa42368f3996b5bba-6"></a>    <span class="cp">{%</span> <span class="k">endif</span> <span class="cp">%}</span>
-<a name="rest_code_5111d6dc37114cdfa42368f3996b5bba-7"></a>    <span class="cp">{%</span> <span class="k">if</span> <span class="s1">'front_page'</span> <span class="k">in</span> <span class="nv">pagekind</span> <span class="cp">%}</span>
-<a name="rest_code_5111d6dc37114cdfa42368f3996b5bba-8"></a>        <span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">"/assets/css/fancy_homepage.css"</span> <span class="na">rel</span><span class="o">=</span><span class="s">"stylesheet"</span><span class="p">&gt;</span>
-<a name="rest_code_5111d6dc37114cdfa42368f3996b5bba-9"></a>        <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">"/assets/js/post_carousel.js"</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-<a name="rest_code_5111d6dc37114cdfa42368f3996b5bba-10"></a>    <span class="cp">{%</span> <span class="k">endif</span> <span class="cp">%}</span>
-<a name="rest_code_5111d6dc37114cdfa42368f3996b5bba-11"></a>    <span class="cp">{%</span> <span class="k">if</span> <span class="s1">'post_page'</span> <span class="k">in</span> <span class="nv">pagekind</span> <span class="cp">%}</span>
-<a name="rest_code_5111d6dc37114cdfa42368f3996b5bba-12"></a>        <span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">"/assets/css/article.css"</span> <span class="na">rel</span><span class="o">=</span><span class="s">"stylesheet"</span><span class="p">&gt;</span>
-<a name="rest_code_5111d6dc37114cdfa42368f3996b5bba-13"></a>        <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">"/assets/js/comment_system.js"</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-<a name="rest_code_5111d6dc37114cdfa42368f3996b5bba-14"></a>    <span class="cp">{%</span> <span class="k">endif</span> <span class="cp">%}</span>
-<a name="rest_code_5111d6dc37114cdfa42368f3996b5bba-15"></a><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<pre class="code html+jinja"><a name="rest_code_f7ac3a1e9f5546c88eb3842345f0944f-1"></a><span class="c">&lt;!-- Jinja2 --&gt;</span>
+<a name="rest_code_f7ac3a1e9f5546c88eb3842345f0944f-2"></a><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+<a name="rest_code_f7ac3a1e9f5546c88eb3842345f0944f-3"></a>    …
+<a name="rest_code_f7ac3a1e9f5546c88eb3842345f0944f-4"></a>    <span class="cp">{%</span> <span class="k">if</span> <span class="s1">'index'</span> <span class="k">in</span> <span class="nv">pagekind</span> <span class="cp">%}</span>
+<a name="rest_code_f7ac3a1e9f5546c88eb3842345f0944f-5"></a>        <span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">"/assets/css/multicolumn.css"</span> <span class="na">rel</span><span class="o">=</span><span class="s">"stylesheet"</span><span class="p">&gt;</span>
+<a name="rest_code_f7ac3a1e9f5546c88eb3842345f0944f-6"></a>    <span class="cp">{%</span> <span class="k">endif</span> <span class="cp">%}</span>
+<a name="rest_code_f7ac3a1e9f5546c88eb3842345f0944f-7"></a>    <span class="cp">{%</span> <span class="k">if</span> <span class="s1">'front_page'</span> <span class="k">in</span> <span class="nv">pagekind</span> <span class="cp">%}</span>
+<a name="rest_code_f7ac3a1e9f5546c88eb3842345f0944f-8"></a>        <span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">"/assets/css/fancy_homepage.css"</span> <span class="na">rel</span><span class="o">=</span><span class="s">"stylesheet"</span><span class="p">&gt;</span>
+<a name="rest_code_f7ac3a1e9f5546c88eb3842345f0944f-9"></a>        <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">"/assets/js/post_carousel.js"</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<a name="rest_code_f7ac3a1e9f5546c88eb3842345f0944f-10"></a>    <span class="cp">{%</span> <span class="k">endif</span> <span class="cp">%}</span>
+<a name="rest_code_f7ac3a1e9f5546c88eb3842345f0944f-11"></a>    <span class="cp">{%</span> <span class="k">if</span> <span class="s1">'post_page'</span> <span class="k">in</span> <span class="nv">pagekind</span> <span class="cp">%}</span>
+<a name="rest_code_f7ac3a1e9f5546c88eb3842345f0944f-12"></a>        <span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">"/assets/css/article.css"</span> <span class="na">rel</span><span class="o">=</span><span class="s">"stylesheet"</span><span class="p">&gt;</span>
+<a name="rest_code_f7ac3a1e9f5546c88eb3842345f0944f-13"></a>        <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">"/assets/js/comment_system.js"</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<a name="rest_code_f7ac3a1e9f5546c88eb3842345f0944f-14"></a>    <span class="cp">{%</span> <span class="k">endif</span> <span class="cp">%}</span>
+<a name="rest_code_f7ac3a1e9f5546c88eb3842345f0944f-15"></a><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
 </pre>
 <p>Promoting visits to the front page when visiting other filtered
 <code class="docutils literal">index.tmpl</code> page variants such as author pages and tag pages. This
 could have been included in <code class="docutils literal">index.tmpl</code> or maybe in <code class="docutils literal">base.tmpl</code>
 depending on what you want to achieve.</p>
-<pre class="code html+mako"><a name="rest_code_c456d65f68de4c2fb9f6273a54f075bb-1"></a><span class="c">&lt;!-- Mako --&gt;</span>
-<a name="rest_code_c456d65f68de4c2fb9f6273a54f075bb-2"></a><span class="cp">%</span> <span class="k">if</span> <span class="s1">'index'</span> <span class="ow">in</span> <span class="n">pagekind</span><span class="p">:</span>
-<a name="rest_code_c456d65f68de4c2fb9f6273a54f075bb-3"></a>    <span class="cp">%</span> <span class="k">if</span> <span class="s1">'author_page'</span> <span class="ow">in</span> <span class="n">pagekind</span><span class="p">:</span>
-<a name="rest_code_c456d65f68de4c2fb9f6273a54f075bb-4"></a>        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>These posts were written by <span class="cp">${</span><span class="n">author</span><span class="cp">}</span>. See posts by all
-<a name="rest_code_c456d65f68de4c2fb9f6273a54f075bb-5"></a>           authors on the <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"/"</span><span class="p">&gt;</span>front page<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>.<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-<a name="rest_code_c456d65f68de4c2fb9f6273a54f075bb-6"></a>    <span class="cp">%</span> <span class="k">elif</span> <span class="s1">'tag_page'</span> <span class="ow">in</span> <span class="n">pagekind</span><span class="p">:</span>
-<a name="rest_code_c456d65f68de4c2fb9f6273a54f075bb-7"></a>        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>This is a filtered selection of posts tagged “<span class="cp">${</span><span class="n">tag</span><span class="cp">}</span>”, visit
-<a name="rest_code_c456d65f68de4c2fb9f6273a54f075bb-8"></a>           the <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"/"</span><span class="p">&gt;</span>front page<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span> to see all posts.<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-<a name="rest_code_c456d65f68de4c2fb9f6273a54f075bb-9"></a>    <span class="cp">%</span><span class="k"> endif</span>
-<a name="rest_code_c456d65f68de4c2fb9f6273a54f075bb-10"></a><span class="cp">%</span><span class="k"> endif</span>
+<pre class="code html+mako"><a name="rest_code_64bff14ecd304bce97b8fd438f076c14-1"></a><span class="c">&lt;!-- Mako --&gt;</span>
+<a name="rest_code_64bff14ecd304bce97b8fd438f076c14-2"></a><span class="cp">%</span> <span class="k">if</span> <span class="s1">'index'</span> <span class="ow">in</span> <span class="n">pagekind</span><span class="p">:</span>
+<a name="rest_code_64bff14ecd304bce97b8fd438f076c14-3"></a>    <span class="cp">%</span> <span class="k">if</span> <span class="s1">'author_page'</span> <span class="ow">in</span> <span class="n">pagekind</span><span class="p">:</span>
+<a name="rest_code_64bff14ecd304bce97b8fd438f076c14-4"></a>        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>These posts were written by <span class="cp">${</span><span class="n">author</span><span class="cp">}</span>. See posts by all
+<a name="rest_code_64bff14ecd304bce97b8fd438f076c14-5"></a>           authors on the <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"/"</span><span class="p">&gt;</span>front page<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>.<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<a name="rest_code_64bff14ecd304bce97b8fd438f076c14-6"></a>    <span class="cp">%</span> <span class="k">elif</span> <span class="s1">'tag_page'</span> <span class="ow">in</span> <span class="n">pagekind</span><span class="p">:</span>
+<a name="rest_code_64bff14ecd304bce97b8fd438f076c14-7"></a>        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>This is a filtered selection of posts tagged “<span class="cp">${</span><span class="n">tag</span><span class="cp">}</span>”, visit
+<a name="rest_code_64bff14ecd304bce97b8fd438f076c14-8"></a>           the <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"/"</span><span class="p">&gt;</span>front page<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span> to see all posts.<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<a name="rest_code_64bff14ecd304bce97b8fd438f076c14-9"></a>    <span class="cp">%</span><span class="k"> endif</span>
+<a name="rest_code_64bff14ecd304bce97b8fd438f076c14-10"></a><span class="cp">%</span><span class="k"> endif</span>
 </pre>
-<pre class="code html+jinja"><a name="rest_code_c5823a1d6bf84e99ba641d451c1a1931-1"></a><span class="c">&lt;!-- Jinja2 --&gt;</span>
-<a name="rest_code_c5823a1d6bf84e99ba641d451c1a1931-2"></a><span class="cp">{%</span> <span class="k">if</span> <span class="s1">'index'</span> <span class="k">in</span> <span class="nv">pagekind</span> <span class="cp">%}</span>
-<a name="rest_code_c5823a1d6bf84e99ba641d451c1a1931-3"></a>    <span class="cp">{%</span> <span class="k">if</span> <span class="s1">'author_page'</span> <span class="k">in</span> <span class="nv">pagekind</span> <span class="cp">%}</span>
-<a name="rest_code_c5823a1d6bf84e99ba641d451c1a1931-4"></a>        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>These posts were written by <span class="cp">{{</span> <span class="nv">author</span> <span class="cp">}}</span>. See posts by all
-<a name="rest_code_c5823a1d6bf84e99ba641d451c1a1931-5"></a>           authors on the <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"/"</span><span class="p">&gt;</span>front page<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>.<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-<a name="rest_code_c5823a1d6bf84e99ba641d451c1a1931-6"></a>    <span class="cp">{%</span> <span class="k">elif</span> <span class="s1">'tag_page'</span> <span class="k">in</span> <span class="nv">pagekind</span> <span class="cp">%}</span>
-<a name="rest_code_c5823a1d6bf84e99ba641d451c1a1931-7"></a>        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>This is a filtered selection of posts tagged “<span class="cp">{{</span> <span class="nv">tag</span> <span class="cp">}}</span>”, visit
-<a name="rest_code_c5823a1d6bf84e99ba641d451c1a1931-8"></a>           the <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"/"</span><span class="p">&gt;</span>front page<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span> to see all posts.<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-<a name="rest_code_c5823a1d6bf84e99ba641d451c1a1931-9"></a>    <span class="cp">{%</span> <span class="k">endif</span> <span class="cp">%}</span>
-<a name="rest_code_c5823a1d6bf84e99ba641d451c1a1931-10"></a><span class="cp">{%</span> <span class="k">endif</span> <span class="cp">%}</span>
+<pre class="code html+jinja"><a name="rest_code_ee7248b28b6847b89726d232916caba9-1"></a><span class="c">&lt;!-- Jinja2 --&gt;</span>
+<a name="rest_code_ee7248b28b6847b89726d232916caba9-2"></a><span class="cp">{%</span> <span class="k">if</span> <span class="s1">'index'</span> <span class="k">in</span> <span class="nv">pagekind</span> <span class="cp">%}</span>
+<a name="rest_code_ee7248b28b6847b89726d232916caba9-3"></a>    <span class="cp">{%</span> <span class="k">if</span> <span class="s1">'author_page'</span> <span class="k">in</span> <span class="nv">pagekind</span> <span class="cp">%}</span>
+<a name="rest_code_ee7248b28b6847b89726d232916caba9-4"></a>        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>These posts were written by <span class="cp">{{</span> <span class="nv">author</span> <span class="cp">}}</span>. See posts by all
+<a name="rest_code_ee7248b28b6847b89726d232916caba9-5"></a>           authors on the <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"/"</span><span class="p">&gt;</span>front page<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>.<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<a name="rest_code_ee7248b28b6847b89726d232916caba9-6"></a>    <span class="cp">{%</span> <span class="k">elif</span> <span class="s1">'tag_page'</span> <span class="k">in</span> <span class="nv">pagekind</span> <span class="cp">%}</span>
+<a name="rest_code_ee7248b28b6847b89726d232916caba9-7"></a>        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>This is a filtered selection of posts tagged “<span class="cp">{{</span> <span class="nv">tag</span> <span class="cp">}}</span>”, visit
+<a name="rest_code_ee7248b28b6847b89726d232916caba9-8"></a>           the <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"/"</span><span class="p">&gt;</span>front page<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span> to see all posts.<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<a name="rest_code_ee7248b28b6847b89726d232916caba9-9"></a>    <span class="cp">{%</span> <span class="k">endif</span> <span class="cp">%}</span>
+<a name="rest_code_ee7248b28b6847b89726d232916caba9-10"></a><span class="cp">{%</span> <span class="k">endif</span> <span class="cp">%}</span>
 </pre>
 <p>List of page kinds provided by default plugins:</p>
 <ul class="simple">
@@ -586,19 +570,18 @@ this happens)</p>
     </div>
     
 
-</article><!--End of body content--><footer id="footer">
-            Contents © 2020         <a href="mailto:melissawm@gmail.com">melissawm</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
-            
+</article><footer id="footer"><p>Contents © 2020         <a href="mailto:melissawm@gmail.com">melissawm</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
             
         </footer>
 </div>
-</div>
-
-
-        <script src="../assets/js/all-nocdn.js"></script><script>
-    baguetteBox.run('div#content', {
-        ignoreClass: 'islink',
-        captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
-    </script>
+    </div>
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    
+    
+    
+            <script src="../assets/js/all-nocdn.js"></script><!-- fancy dates --><script>
+    moment.locale("en");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates -->
 </body>
 </html>
