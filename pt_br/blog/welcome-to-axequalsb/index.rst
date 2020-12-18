@@ -8,6 +8,7 @@
 .. category: nikola
 
 .. figure:: /images/chalkboard.png
+   :scale: 90
    :class: thumbnail
    :alt: Chalkboard, original image by PXHere
 
