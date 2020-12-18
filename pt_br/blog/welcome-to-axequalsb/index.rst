@@ -11,15 +11,11 @@
    :class: thumbnail
    :alt: Chalkboard, original image by PXHere
 
-If you can see this in a web browser, it means you managed to install Nikola,
-and build a site using it. Congratulations!
+Hi there!
 
-Next steps:
+I am a software engineer at `Quansight<https://quansight.com>`_, working on `NumPy<https://numpy.org>`_ and other open source projects. I care deeply about teaching, mentoring, and have been involved in the Python community for some time. You can find most of my talk slides on github; feel free to use those according to the licenses stated in each repo. I am interested in math, programming, free/open source software and communities, crafts and parenting. My pronouns are she/her.
+	 
+* `twitter: @melissawm<https://twitter.com/melissawm>`_
+* `LinkedIn<https://linkedin.com/in/axequalsb>`_
 
-* :doc:`Read the manual <handbook>`
-* `Visit the Nikola website to learn more <https://getnikola.com>`__
-* `See a demo photo gallery <link://gallery/demo>`__
-* :doc:`See a demo listing <listings-demo>`
-* :doc:`See a demo of a longer text <dr-nikolas-vendetta>`
-
-Send feedback to info@getnikola.com!
+Reach out at `melissawm@gmail.com`!
