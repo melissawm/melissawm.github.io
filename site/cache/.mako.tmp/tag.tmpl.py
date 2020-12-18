@@ -5,10 +5,10 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1608301371.3907487
+_modified_time = 1608301371.2643607
 _enable_loop = True
-_template_filename = '/opt/miniconda/envs/blog/lib/python3.9/site-packages/nikola/data/themes/base/templates/tags.tmpl'
-_template_uri = 'tags.tmpl'
+_template_filename = '/opt/miniconda/envs/blog/lib/python3.9/site-packages/nikola/data/themes/base/templates/tag.tmpl'
+_template_uri = 'tag.tmpl'
 _source_encoding = 'utf-8'
 _exports = ['extra_head', 'content']
 
@@ -25,25 +25,24 @@ def _mako_generate_namespaces(context):
 
 def _mako_inherit(template, context):
     _mako_generate_namespaces(context)
-    return runtime._inherit_from(context, 'base.tmpl', _template_uri)
+    return runtime._inherit_from(context, 'list_post.tmpl', _template_uri)
 def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
         _import_ns = {}
         _mako_get_namespace(context, 'feeds_translations')._populate(_import_ns, ['*'])
-        cat_items = _import_ns.get('cat_items', context.get('cat_items', UNDEFINED))
-        range = _import_ns.get('range', context.get('range', UNDEFINED))
         def extra_head():
             return render_extra_head(context._locals(__M_locals))
-        hidden_tags = _import_ns.get('hidden_tags', context.get('hidden_tags', UNDEFINED))
         title = _import_ns.get('title', context.get('title', UNDEFINED))
+        description = _import_ns.get('description', context.get('description', UNDEFINED))
         def content():
             return render_content(context._locals(__M_locals))
-        len = _import_ns.get('len', context.get('len', UNDEFINED))
-        cat_hierarchy = _import_ns.get('cat_hierarchy', context.get('cat_hierarchy', UNDEFINED))
+        date_format = _import_ns.get('date_format', context.get('date_format', UNDEFINED))
         feeds_translations = _mako_get_namespace(context, 'feeds_translations')
-        items = _import_ns.get('items', context.get('items', UNDEFINED))
+        subcategories = _import_ns.get('subcategories', context.get('subcategories', UNDEFINED))
+        tag = _import_ns.get('tag', context.get('tag', UNDEFINED))
+        posts = _import_ns.get('posts', context.get('posts', UNDEFINED))
         messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
         kind = _import_ns.get('kind', context.get('kind', UNDEFINED))
         __M_writer = context.writer()
@@ -72,10 +71,11 @@ def render_extra_head(context,**pageargs):
         def extra_head():
             return render_extra_head(context)
         feeds_translations = _mako_get_namespace(context, 'feeds_translations')
+        tag = _import_ns.get('tag', context.get('tag', UNDEFINED))
         kind = _import_ns.get('kind', context.get('kind', UNDEFINED))
         __M_writer = context.writer()
         __M_writer('\n    ')
-        __M_writer(str(feeds_translations.head(kind=kind, feeds=False)))
+        __M_writer(str(feeds_translations.head(tag, kind, rss_override=False)))
         __M_writer('\n')
         return ''
     finally:
@@ -87,56 +87,55 @@ def render_content(context,**pageargs):
     try:
         _import_ns = {}
         _mako_get_namespace(context, 'feeds_translations')._populate(_import_ns, ['*'])
-        cat_items = _import_ns.get('cat_items', context.get('cat_items', UNDEFINED))
-        range = _import_ns.get('range', context.get('range', UNDEFINED))
-        hidden_tags = _import_ns.get('hidden_tags', context.get('hidden_tags', UNDEFINED))
         title = _import_ns.get('title', context.get('title', UNDEFINED))
+        description = _import_ns.get('description', context.get('description', UNDEFINED))
         def content():
             return render_content(context)
-        len = _import_ns.get('len', context.get('len', UNDEFINED))
-        cat_hierarchy = _import_ns.get('cat_hierarchy', context.get('cat_hierarchy', UNDEFINED))
+        date_format = _import_ns.get('date_format', context.get('date_format', UNDEFINED))
         feeds_translations = _mako_get_namespace(context, 'feeds_translations')
-        items = _import_ns.get('items', context.get('items', UNDEFINED))
+        subcategories = _import_ns.get('subcategories', context.get('subcategories', UNDEFINED))
+        tag = _import_ns.get('tag', context.get('tag', UNDEFINED))
+        posts = _import_ns.get('posts', context.get('posts', UNDEFINED))
         messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
         kind = _import_ns.get('kind', context.get('kind', UNDEFINED))
         __M_writer = context.writer()
-        __M_writer('\n<article class="tagindex">\n    <header>\n        <h1>')
+        __M_writer('\n<article class="tagpage">\n    <header>\n        <h1>')
         __M_writer(filters.html_escape(str(title)))
-        __M_writer('</h1>\n        <div class="metadata">\n            ')
-        __M_writer(str(feeds_translations.translation_link(kind)))
-        __M_writer('\n        </div>\n    </header>\n')
-        if cat_items:
-            if items:
-                __M_writer('            <h2>')
-                __M_writer(str(messages("Categories")))
-                __M_writer('</h2>\n')
-            for text, full_name, path, link, indent_levels, indent_change_before, indent_change_after in cat_hierarchy:
-                for i in range(indent_change_before):
-                    __M_writer('                <ul class="postlist">\n')
-                __M_writer('            <li><a class="reference" href="')
+        __M_writer('</h1>\n')
+        if description:
+            __M_writer('            <p>')
+            __M_writer(str(description))
+            __M_writer('</p>\n')
+        if subcategories:
+            __M_writer('        ')
+            __M_writer(str(messages('Subcategories:')))
+            __M_writer('\n        <ul>\n')
+            for name, link in subcategories:
+                __M_writer('            <li><a href="')
                 __M_writer(str(link))
                 __M_writer('">')
-                __M_writer(str(text))
-                __M_writer('</a>\n')
-                if indent_change_after <= 0:
-                    __M_writer('                </li>\n')
-                for i in range(-indent_change_after):
-                    __M_writer('                </ul>\n')
-                    if i + 1 < len(indent_levels):
-                        __M_writer('                    </li>\n')
-            if items:
-                __M_writer('            <h2>')
-                __M_writer(str(messages("Tags")))
-                __M_writer('</h2>\n')
-        if items:
+                __M_writer(filters.html_escape(str(name)))
+                __M_writer('</a></li>\n')
+            __M_writer('        </ul>\n')
+        __M_writer('        <div class="metadata">\n            ')
+        __M_writer(str(feeds_translations.feed_link(tag, kind=kind)))
+        __M_writer('\n        </div>\n        ')
+        __M_writer(str(feeds_translations.translation_link(kind)))
+        __M_writer('\n    </header>\n')
+        if posts:
             __M_writer('        <ul class="postlist">\n')
-            for text, link in items:
-                if text not in hidden_tags:
-                    __M_writer('                <li><a class="reference listtitle" href="')
-                    __M_writer(str(link))
-                    __M_writer('">')
-                    __M_writer(filters.html_escape(str(text)))
-                    __M_writer('</a></li>\n')
+            for post in posts:
+                __M_writer('            <li><time class="listdate" datetime="')
+                __M_writer(str(post.formatted_date('webiso')))
+                __M_writer('" title="')
+                __M_writer(filters.html_escape(str(post.formatted_date(date_format))))
+                __M_writer('">')
+                __M_writer(filters.html_escape(str(post.formatted_date(date_format))))
+                __M_writer('</time> <a href="')
+                __M_writer(str(post.permalink()))
+                __M_writer('" class="listtitle">')
+                __M_writer(filters.html_escape(str(post.title())))
+                __M_writer('<a></li>\n')
             __M_writer('        </ul>\n')
         __M_writer('</article>\n')
         return ''
@@ -146,6 +145,6 @@ def render_content(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"filename": "/opt/miniconda/envs/blog/lib/python3.9/site-packages/nikola/data/themes/base/templates/tags.tmpl", "uri": "tags.tmpl", "source_encoding": "utf-8", "line_map": {"23": 3, "29": 0, "50": 2, "51": 3, "56": 7, "61": 50, "67": 5, "77": 5, "78": 6, "79": 6, "85": 9, "103": 9, "104": 12, "105": 12, "106": 14, "107": 14, "108": 17, "109": 18, "110": 19, "111": 19, "112": 19, "113": 21, "114": 22, "115": 23, "116": 25, "117": 25, "118": 25, "119": 25, "120": 25, "121": 26, "122": 27, "123": 29, "124": 30, "125": 31, "126": 32, "127": 36, "128": 37, "129": 37, "130": 37, "131": 40, "132": 41, "133": 42, "134": 43, "135": 44, "136": 44, "137": 44, "138": 44, "139": 44, "140": 47, "141": 49, "147": 141}}
+{"filename": "/opt/miniconda/envs/blog/lib/python3.9/site-packages/nikola/data/themes/base/templates/tag.tmpl", "uri": "tag.tmpl", "source_encoding": "utf-8", "line_map": {"23": 3, "29": 0, "49": 2, "50": 3, "55": 7, "60": 37, "66": 5, "77": 5, "78": 6, "79": 6, "85": 9, "102": 9, "103": 12, "104": 12, "105": 13, "106": 14, "107": 14, "108": 14, "109": 16, "110": 17, "111": 17, "112": 17, "113": 19, "114": 20, "115": 20, "116": 20, "117": 20, "118": 20, "119": 22, "120": 24, "121": 25, "122": 25, "123": 27, "124": 27, "125": 29, "126": 30, "127": 31, "128": 32, "129": 32, "130": 32, "131": 32, "132": 32, "133": 32, "134": 32, "135": 32, "136": 32, "137": 32, "138": 32, "139": 34, "140": 36, "146": 140}}
 __M_END_METADATA
 """
