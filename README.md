@@ -23,6 +23,7 @@ $ nikola auto -b
 To deploy to gh-pages, do
 
 ```bash
+$ cd site/
 $ nikola github_deploy
 ```
 
