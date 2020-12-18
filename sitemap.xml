@@ -7,11 +7,15 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://melissawm.github.io/</loc>
-  <lastmod>2020-12-17T23:57:00Z</lastmod>
+  <lastmod>2020-12-18T02:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/2012/</loc>
   <lastmod>2020-12-17T23:15:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://melissawm.github.io/2020/</loc>
+  <lastmod>2020-12-18T02:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/about-nikola/</loc>
@@ -19,7 +23,11 @@
  </url>
  <url>
   <loc>https://melissawm.github.io/archive.html</loc>
-  <lastmod>2020-12-18T00:17:00Z</lastmod>
+  <lastmod>2020-12-18T14:15:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://melissawm.github.io/blog/welcome-to-axequalsb/</loc>
+  <lastmod>2020-12-18T14:15:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/blog/welcome-to-nikola/</loc>
@@ -99,7 +107,7 @@
  </url>
  <url>
   <loc>https://melissawm.github.io/listings/hello.py.html</loc>
-  <lastmod>2020-12-18T00:17:00Z</lastmod>
+  <lastmod>2020-12-18T14:15:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/path-handlers/</loc>
@@ -107,11 +115,15 @@
  </url>
  <url>
   <loc>https://melissawm.github.io/pt_br/</loc>
-  <lastmod>2020-12-17T23:57:00Z</lastmod>
+  <lastmod>2020-12-18T02:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/pt_br/2012/</loc>
   <lastmod>2020-12-17T23:40:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://melissawm.github.io/pt_br/2020/</loc>
+  <lastmod>2020-12-18T02:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/pt_br/about-nikola/</loc>
@@ -119,12 +131,16 @@
  </url>
  <url>
   <loc>https://melissawm.github.io/pt_br/archive.html</loc>
-  <lastmod>2020-12-18T00:17:00Z</lastmod>
+  <lastmod>2020-12-18T14:15:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://melissawm.github.io/pt_br/blog/welcome-to-axequalsb/</loc>
+  <lastmod>2020-12-18T14:15:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://melissawm.github.io/blog/welcome-to-axequalsb/" />
  </url>
  <url>
   <loc>https://melissawm.github.io/pt_br/blog/welcome-to-nikola/</loc>
   <lastmod>2020-12-17T23:40:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://melissawm.github.io/blog/welcome-to-nikola/" />
  </url>
  <url>
   <loc>https://melissawm.github.io/pt_br/bootstrap-demo/</loc>
