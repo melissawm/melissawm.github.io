@@ -145,8 +145,8 @@ NAVIGATION_LINKS = {
     ),
 
     "pt_br": (
-        ("/pt_br/", "Home"),
-        ("/pt_br/blog/", "Blog"),
+        ("/pt_br/", "Home (pt_br)"),
+        ("/pt_br/blog/", "Blog (pt_br)"),
         ("/pt_br/about", "Sobre"),
     ),
 }
@@ -191,6 +191,7 @@ THEME_CONFIG = {
         'sidebar': ''
     }
 }
+
 # Config for bootstrap4:
 # THEME_CONFIG = {
 #     DEFAULT_LANG: {
@@ -1403,10 +1404,11 @@ GLOBAL_CONTEXT = { "JIDN" : { BLOG_AUTHOR: {
     "email": BLOG_EMAIL,
     "bio": """Mathematician, feminist, free software enthusiast, recovering academic, geek, mom. She/her/ela.""",
     "social": (
-        "https:///twitter.com/melissawm",
+        "https://twitter.com/melissawm",
         "https://linkedin.com/in/axequalsb",
     ),
-}}}
+    },
+    }, }
 
 # Add functions here and they will be called with template
 # GLOBAL_CONTEXT as parameter when the template is about to be
