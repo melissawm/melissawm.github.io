@@ -142,6 +142,7 @@ NAVIGATION_LINKS = {
         ("/", "Home"),
         ("/blog/", "Blog"),
         ("/about/", "About"),
+        ("/test/", "Test"),
     ),
 
     "pt_br": (
