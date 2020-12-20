@@ -99,7 +99,6 @@ DEFAULT_LANG = "en"
 # the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
     DEFAULT_LANG: "",
-    "pt_br": "./pt_br",
 }
 
 # What will translated input files be named like?
@@ -139,25 +138,19 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/", "Home"),
-        ("/blog/", "Blog"),
-        ("/about/", "About"),
-        ("/test/", "Test"),
-    ),
-
-    "pt_br": (
-        ("/pt_br/", "Home (pt_br)"),
-        ("/pt_br/blog/", "Blog (pt_br)"),
-        ("/pt_br/about", "Sobre"),
+#        ("/", "Home"),
+#        ("/blog/", "Blog"),
+        ("/resources/", "Resources"),
+        ("/about-me", "About"),
     ),
 }
 
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
 # although themes may not always support them. (translatable)
 # (Bootstrap 4: right-side of navbar, Bootblog 4: right side of title)
-NAVIGATION_ALT_LINKS = {
-    DEFAULT_LANG: ()
-}
+#NAVIGATION_ALT_LINKS = {
+#    DEFAULT_LANG: ()
+#}
 
 # Name of the theme to use.
 THEME = "jidn"
@@ -256,7 +249,7 @@ PAGES = (
     ("pages/*.md", "", "page.tmpl"),
 )
 
-# INDEX_PATH = "blog"
+INDEX_PATH = "blog"
 
 # Below this point, everything is optional
 
