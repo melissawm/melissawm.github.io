@@ -7,223 +7,115 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://melissawm.github.io/</loc>
-  <lastmod>2020-12-18T02:46:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/2020/</loc>
-  <lastmod>2020-12-18T14:22:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/about-nikola/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/archive.html</loc>
-  <lastmod>2020-12-20T19:33:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/blog/welcome-to-axequalsb/</loc>
-  <lastmod>2020-12-18T14:22:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/bootstrap-demo/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/categories/</loc>
-  <lastmod>2020-12-18T14:22:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/categories/blog/</loc>
-  <lastmod>2020-12-18T14:22:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/categories/cat_nikola/</loc>
-  <lastmod>2020-12-18T14:22:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/categories/demo/</loc>
-  <lastmod>2020-12-18T14:22:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/categories/nikola/</loc>
-  <lastmod>2020-12-18T14:22:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/categories/python/</loc>
-  <lastmod>2020-12-18T14:22:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/charts/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/creating-a-theme/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/dr-nikolas-vendetta/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/extending/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/galleries/</loc>
-  <lastmod>2020-12-17T23:15:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/galleries/demo/</loc>
-  <lastmod>2020-12-17T23:15:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/handbook/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/internals/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/listings-demo/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/listings/</loc>
-  <lastmod>2020-12-17T23:15:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/listings/__pycache__/</loc>
-  <lastmod>2020-12-17T23:15:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/listings/hello.py.html</loc>
-  <lastmod>2020-12-20T19:33:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/path-handlers/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/pt_br/</loc>
-  <lastmod>2020-12-18T02:46:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/pt_br/2020/</loc>
-  <lastmod>2020-12-18T14:22:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/pt_br/about-nikola/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/pt_br/archive.html</loc>
-  <lastmod>2020-12-20T19:33:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/pt_br/blog/welcome-to-axequalsb/</loc>
-  <lastmod>2020-12-18T14:15:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="https://melissawm.github.io/blog/welcome-to-axequalsb/" />
  </url>
  <url>
-  <loc>https://melissawm.github.io/pt_br/bootstrap-demo/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
- </url>
- <url>
   <loc>https://melissawm.github.io/pt_br/categories/</loc>
-  <lastmod>2020-12-18T14:22:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/pt_br/categories/blog/</loc>
-  <lastmod>2020-12-18T14:22:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/pt_br/categories/cat_nikola/</loc>
-  <lastmod>2020-12-18T14:22:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/pt_br/categories/demo/</loc>
-  <lastmod>2020-12-18T14:22:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/pt_br/categories/nikola/</loc>
-  <lastmod>2020-12-18T14:22:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/pt_br/categories/python/</loc>
-  <lastmod>2020-12-18T14:22:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/pt_br/charts/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/pt_br/creating-a-theme/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/pt_br/dr-nikolas-vendetta/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/pt_br/extending/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/pt_br/galleries/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/pt_br/galleries/demo/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/pt_br/handbook/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/pt_br/internals/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/pt_br/listings-demo/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/pt_br/path-handlers/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/pt_br/quickref/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/pt_br/quickstart/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/pt_br/social_buttons/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/pt_br/theming/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/quickref/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/quickstart/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/social_buttons/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
- </url>
- <url>
-  <loc>https://melissawm.github.io/theming/</loc>
-  <lastmod>2020-12-17T23:40:00Z</lastmod>
+  <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
 </urlset>
