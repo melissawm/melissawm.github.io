@@ -7,39 +7,71 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://melissawm.github.io/</loc>
-  <lastmod>2020-12-20T19:39:00Z</lastmod>
+  <lastmod>2020-12-20T21:49:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/2020/</loc>
   <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://melissawm.github.io/about-nikola/</loc>
-  <lastmod>2020-12-20T19:39:00Z</lastmod>
+  <loc>https://melissawm.github.io/about-me/</loc>
+  <lastmod>2020-12-20T20:13:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/archive.html</loc>
-  <lastmod>2020-12-20T19:39:00Z</lastmod>
+  <lastmod>2020-12-20T21:49:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://melissawm.github.io/blog/</loc>
+  <lastmod>2020-12-20T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/blog/welcome-to-axequalsb/</loc>
-  <lastmod>2020-12-20T19:39:00Z</lastmod>
+  <lastmod>2020-12-20T20:17:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://melissawm.github.io/blog/why-axequalsb/</loc>
+  <lastmod>2020-12-20T20:34:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/categories/</loc>
-  <lastmod>2020-12-20T19:39:00Z</lastmod>
+  <lastmod>2020-12-20T20:34:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/categories/blog/</loc>
   <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
+  <loc>https://melissawm.github.io/categories/cat_math/</loc>
+  <lastmod>2020-12-20T20:34:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://melissawm.github.io/categories/cat_nikola/</loc>
   <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
+  <loc>https://melissawm.github.io/categories/cat_page/</loc>
+  <lastmod>2020-12-20T20:27:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://melissawm.github.io/categories/demo/</loc>
   <lastmod>2020-12-20T19:39:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://melissawm.github.io/categories/home/</loc>
+  <lastmod>2020-12-20T20:27:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://melissawm.github.io/categories/linear-algebra/</loc>
+  <lastmod>2020-12-20T20:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://melissawm.github.io/categories/linear-systems/</loc>
+  <lastmod>2020-12-20T20:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://melissawm.github.io/categories/math/</loc>
+  <lastmod>2020-12-20T20:34:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/categories/nikola/</loc>
@@ -67,7 +99,7 @@
  </url>
  <url>
   <loc>https://melissawm.github.io/pt_br/</loc>
-  <lastmod>2020-12-20T19:39:00Z</lastmod>
+  <lastmod>2020-12-20T19:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/pt_br/2020/</loc>
@@ -78,13 +110,16 @@
   <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
+  <loc>https://melissawm.github.io/pt_br/about/</loc>
+  <lastmod>2020-12-20T19:59:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://melissawm.github.io/pt_br/archive.html</loc>
   <lastmod>2020-12-20T19:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://melissawm.github.io/pt_br/blog/welcome-to-axequalsb/</loc>
   <lastmod>2020-12-20T19:39:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://melissawm.github.io/blog/welcome-to-axequalsb/" />
  </url>
  <url>
   <loc>https://melissawm.github.io/pt_br/categories/</loc>
@@ -117,5 +152,9 @@
  <url>
   <loc>https://melissawm.github.io/pt_br/galleries/demo/</loc>
   <lastmod>2020-12-20T19:39:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://melissawm.github.io/resources/</loc>
+  <lastmod>2020-12-20T21:49:00Z</lastmod>
  </url>
 </urlset>

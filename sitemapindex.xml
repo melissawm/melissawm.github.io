@@ -7,31 +7,55 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://melissawm.github.io/categories/blog.xml</loc>
-  <lastmod>2020-12-20T19:39:00Z</lastmod>
+  <lastmod>2020-12-20T20:34:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://melissawm.github.io/categories/cat_math.xml</loc>
+  <lastmod>2020-12-20T20:34:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://melissawm.github.io/categories/cat_nikola.xml</loc>
-  <lastmod>2020-12-20T19:39:00Z</lastmod>
+  <lastmod>2020-12-20T20:17:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://melissawm.github.io/categories/cat_page.xml</loc>
+  <lastmod>2020-12-20T20:27:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://melissawm.github.io/categories/demo.xml</loc>
-  <lastmod>2020-12-20T19:39:00Z</lastmod>
+  <lastmod>2020-12-20T20:17:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://melissawm.github.io/categories/home.xml</loc>
+  <lastmod>2020-12-20T20:34:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://melissawm.github.io/categories/linear-algebra.xml</loc>
+  <lastmod>2020-12-20T20:34:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://melissawm.github.io/categories/linear-systems.xml</loc>
+  <lastmod>2020-12-20T20:34:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://melissawm.github.io/categories/math.xml</loc>
+  <lastmod>2020-12-20T20:34:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://melissawm.github.io/categories/nikola.xml</loc>
-  <lastmod>2020-12-20T19:39:00Z</lastmod>
+  <lastmod>2020-12-20T20:34:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://melissawm.github.io/categories/python.xml</loc>
-  <lastmod>2020-12-20T19:39:00Z</lastmod>
+  <lastmod>2020-12-20T20:34:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://melissawm.github.io/galleries/demo/rss.xml</loc>
-  <lastmod>2020-12-20T19:39:00Z</lastmod>
+  <lastmod>2020-12-20T21:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://melissawm.github.io/galleries/rss.xml</loc>
-  <lastmod>2020-12-20T19:39:00Z</lastmod>
+  <lastmod>2020-12-20T21:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://melissawm.github.io/pt_br/categories/blog.xml</loc>
@@ -67,10 +91,10 @@
  </sitemap>
  <sitemap>
   <loc>https://melissawm.github.io/rss.xml</loc>
-  <lastmod>2020-12-20T19:39:00Z</lastmod>
+  <lastmod>2020-12-20T20:34:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://melissawm.github.io/sitemap.xml</loc>
-  <lastmod>2020-12-20T19:39:00Z</lastmod>
+  <lastmod>2020-12-20T21:49:00Z</lastmod>
  </sitemap>
 </sitemapindex>
