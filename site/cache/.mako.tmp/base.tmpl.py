@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1608500992.1726046
+_modified_time = 1608578165.6443875
 _enable_loop = True
 _template_filename = 'themes/jidn/templates/base.tmpl'
 _template_uri = 'base.tmpl'
@@ -38,23 +38,23 @@ def render_body(context,**pageargs):
         _mako_get_namespace(context, 'header')._populate(_import_ns, ['*'])
         _mako_get_namespace(context, 'footer')._populate(_import_ns, ['*'])
         template_hooks = _import_ns.get('template_hooks', context.get('template_hooks', UNDEFINED))
-        JIDN_theme = _import_ns.get('JIDN_theme', context.get('JIDN_theme', UNDEFINED))
-        date_fanciness = _import_ns.get('date_fanciness', context.get('date_fanciness', UNDEFINED))
-        lang = _import_ns.get('lang', context.get('lang', UNDEFINED))
+        def extra_js():
+            return render_extra_js(context._locals(__M_locals))
+        def extra_head():
+            return render_extra_head(context._locals(__M_locals))
+        set_locale = _import_ns.get('set_locale', context.get('set_locale', UNDEFINED))
         messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
         def content():
             return render_content(context._locals(__M_locals))
+        lang = _import_ns.get('lang', context.get('lang', UNDEFINED))
         body_end = _import_ns.get('body_end', context.get('body_end', UNDEFINED))
-        momentjs_locales = _import_ns.get('momentjs_locales', context.get('momentjs_locales', UNDEFINED))
-        js_date_format = _import_ns.get('js_date_format', context.get('js_date_format', UNDEFINED))
-        set_locale = _import_ns.get('set_locale', context.get('set_locale', UNDEFINED))
+        date_fanciness = _import_ns.get('date_fanciness', context.get('date_fanciness', UNDEFINED))
         header = _mako_get_namespace(context, 'header')
-        def extra_head():
-            return render_extra_head(context._locals(__M_locals))
-        def extra_js():
-            return render_extra_js(context._locals(__M_locals))
         base = _mako_get_namespace(context, 'base')
         footer = _mako_get_namespace(context, 'footer')
+        momentjs_locales = _import_ns.get('momentjs_locales', context.get('momentjs_locales', UNDEFINED))
+        JIDN_theme = _import_ns.get('JIDN_theme', context.get('JIDN_theme', UNDEFINED))
+        js_date_format = _import_ns.get('js_date_format', context.get('js_date_format', UNDEFINED))
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -79,11 +79,11 @@ def render_body(context,**pageargs):
         __M_writer('    <a href="#content" class="sr-only sr-only-focusable">')
         __M_writer(str(messages("Skip to main content")))
         __M_writer('</a>\n    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular\n            styles, `#sidebar-checkbox` for behavior. -->\n    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">\n\n    <!-- Toggleable sidebar -->\n    <div class="sidebar" id="sidebar">\n')
-        __M_writer('\n        <nav role="navigation" class="sidebar-nav">\n          <a class="sidebar-nav-item" href="/"><i class="fa fa-2x fa-fw fa-home" /> Home</a>\n          <a class="sidebar-nav-item" href="/blog"><i class="fa fa-2x fa-fw fa-user-circle" /> Blog</a>\n        </nav>\n        ')
+        __M_writer('\n        ')
         __M_writer(str(header.html_navigation_links()))
         __M_writer('\n    </div>\n\n    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the\n         content to avoid any CSS collisions with our real content. -->\n    <div class="wrap">\n      <div class="masthead">\n        <div class="container">\n          ')
         __M_writer(str(header.html_site_title()))
-        __M_writer('\n        </div>\n      </div>\n\n      <div class="container content" id="content">\n        ')
+        __M_writer('\n        </div>\n      </div>\n      <div class="container content" id="content">\n        ')
         if 'parent' not in context._data or not hasattr(context._data['parent'], 'content'):
             context['self'].content(**pageargs)
         
@@ -161,6 +161,6 @@ def render_extra_js(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"filename": "themes/jidn/templates/base.tmpl", "uri": "base.tmpl", "source_encoding": "utf-8", "line_map": {"23": 2, "26": 3, "29": 4, "32": 0, "59": 2, "60": 3, "61": 4, "62": 5, "63": 5, "64": 6, "65": 6, "70": 9, "71": 10, "72": 10, "73": 12, "74": 13, "75": 13, "76": 13, "77": 14, "78": 15, "79": 17, "80": 17, "81": 17, "82": 29, "83": 34, "84": 34, "85": 42, "86": 42, "91": 47, "92": 48, "93": 48, "94": 52, "95": 52, "96": 53, "97": 53, "98": 54, "99": 54, "100": 57, "101": 57, "102": 58, "103": 58, "104": 58, "105": 58, "110": 61, "116": 7, "126": 7, "132": 47, "147": 61, "162": 147}}
+{"filename": "themes/jidn/templates/base.tmpl", "uri": "base.tmpl", "source_encoding": "utf-8", "line_map": {"23": 2, "26": 3, "29": 4, "32": 0, "59": 2, "60": 3, "61": 4, "62": 5, "63": 5, "64": 6, "65": 6, "70": 9, "71": 10, "72": 10, "73": 12, "74": 13, "75": 13, "76": 13, "77": 14, "78": 15, "79": 17, "80": 17, "81": 17, "82": 29, "83": 30, "84": 30, "85": 38, "86": 38, "91": 42, "92": 43, "93": 43, "94": 47, "95": 47, "96": 48, "97": 48, "98": 49, "99": 49, "100": 52, "101": 52, "102": 53, "103": 53, "104": 53, "105": 53, "110": 56, "116": 7, "126": 7, "132": 42, "147": 56, "162": 147}}
 __M_END_METADATA
 """

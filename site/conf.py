@@ -99,6 +99,7 @@ DEFAULT_LANG = "en"
 # the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
     DEFAULT_LANG: "",
+    "pt_br": "/pt_br/",
 }
 
 # What will translated input files be named like?
@@ -138,11 +139,17 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-#        ("/", "Home"),
-#        ("/blog/", "Blog"),
+        ("/", "Home"),
+        ("/blog/", "Blog"),
         ("/resources/", "Resources"),
         ("/about-me", "About"),
     ),
+    "pt_br": (
+        ("/pt_br/", "Início"),
+        ("/pt_br/blog", "Blog"),
+        ("/pt_br/recursos/", "Recursos"),
+        ("/pt_br/quem-sou", "Quem sou eu"),
+    )
 }
 
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
@@ -375,7 +382,7 @@ COMPILERS = {
 # This option lets you use an image to be used if the post doesn't have it.
 # The default is None, valid values are URLs or output paths like
 # "/images/foo.jpg"
-# DEFAULT_PREVIEW_IMAGE = None
+DEFAULT_PREVIEW_IMAGE = "/images/chalkboard.png"
 
 # If you want to hide the title of your website (for example, if your logo
 # already contains the text), set this to False.
@@ -414,12 +421,12 @@ COMPILERS = {
 # }
 
 # Set special titles for tag pages. The default is "Posts about TAG".
-# TAG_TITLES = {
-#    DEFAULT_LANG: {
-#        "blogging": "Meta-posts about blogging",
-#        "open source": "Posts about open source software"
-#    },
-# }
+#TAG_TITLES = {
+#   DEFAULT_LANG: {
+#       "blogging": "Meta-posts about blogging",
+#       "open source": "Posts about open source software"
+#   },
+#}
 
 # If you do not want to display a tag publicly, you can mark it as hidden.
 # The tag will not be displayed on the tag list page and posts.
@@ -439,7 +446,9 @@ HIDDEN_TAGS = ['mathjax']
 #     {'en': 'private', 'de': 'Privat'},
 #     {'en': 'work', 'fr': 'travail', 'de': 'Arbeit'},
 #   ]
-# TAG_TRANSLATIONS = []
+TAG_TRANSLATIONS = [
+    {'en': 'about', 'pt_br': 'sobre'},
+]
 
 # If set to True, a tag in a language will be treated as a translation
 # of the literally same tag in all other languages. Enable this if you
