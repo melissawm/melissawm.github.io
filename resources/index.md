@@ -7,47 +7,69 @@
 .. description:
 .. category: page
 
+Highlights
+==========
+
+* Complete Linear Algebra course *(in portuguese)*: <a href="https://github.com/melissawm/algebralinear">GitHub repository</a>
+* Linear Programming course material *(in portuguese)*: <a href="https://www.overleaf.com/read/kycmpxvpcznr">Overleaf file</a>
+* Tutorial "Uma introdução ao Python Científico: NumPy, SciPy e Matplotlib" *(in portuguese)*: <a href="https://github.com/melissawm/tutorial-pybr2020">GitHub repository</a>
+
+2020
+====
+
+* Slides for the talk "Community Building through Documentation", presented at **PyData Cambridge Meetup 2020** <a target="new" href="https://drive.google.com/file/d/1bVJjklS_8bz5Tnd8uBfYQevzf6vedX2U/view?usp=sharing">.pdf file</a>
+* Slides for the keynote "Mente de Principiante" (Beginner's Mind), presented at **Python Brasil 2020** *(in portuguese)*: <a target="new" href="https://drive.google.com/file/d/1TZI8a4R691Qn93Z_Cq8u-pnlyX_avaW1/view?usp=sharing">.pdf file</a>
+* Repository for the tutorial "Uma introdução ao Python Científico: NumPy, SciPy e Matplotlib", presented at **Python Brasil 2020** *(in portuguese)*: <a target="new" href="https://github.com/melissawm/tutorial-pybr2020">GitHub</a>
+* Slides for the talk "O Ecossistema Científico no Python", presented at **Meetup CiDAMAS** *(in portuguese)*: <a target="new" href="https://github.com/melissawm/intro-scipy-stack">GitHub repository</a> (a previous version was also presented at the **Python Floripa** meetup).
+* Slides for the talk "F2PY: Bringing fast code into the future", presented at **FortranCon 2020** and **SciPy 2020**: <a target="new" href="https://drive.google.com/file/d/1VYE6hFEG25-rBwVTov9demlJu2XdAhzQ/view?usp=sharing">.pdf file</a>
+
+2019
+====
+
+* Repository for the talk "Do cartão perfurado aos supercomputadores", presented at **Python Brasil 2019** *(in portuguese)*: <a target="new" href="https://github.com/melissawm/pybr2019">GitHub</a>
+* Repository for the talk "De Fortran a Julia: Computação Científica no Mundo Real", presented at **QConSP** *(in portuguese)*: <a target="new" href="https://github.com/melissawm/realworldscicomp">GitHub</a>; another version was later presented at **Python Sul 2019**: <a target="new" href="https://www.overleaf.com/read/bvkpccfgzqyf">Overleaf file</a>
+* Repository for the "Uso de tecnologias em sala de aula: ferramentas, processos e motivações", presented at the XII edition of **FERMAT (Feira estudantil redescobrindo a matemática)** and "I Feira de Matemática da UFSC" *(in portuguese)*: <a target="new" href="https://github.com/melissawm/fermat2019">GitHub</a>
+* Some files related to the **Programação Não-Linear** course offered in 2019.2 by the math department at UFSC *(in portuguese)*: <a target="new" href="https://github.com/melissawm/programacaonaolinear">GitHub repository</a>
+
 2018
 ====
 
-* Slides do trabalho apresentado no **XII Brazilian Workshop on Continuous Optimization**, em Foz do Iguaçu, PR: <a href="https://drive.google.com/file/d/1lGyvwTAkOkv0tIA76MAXOqxcawx-LSOp/view?usp=sharing">New stopping criteria for the Block-Lanczos Spectral Projected Gradient algorithm with applications to large-scale Procrustes problems</a>
-* Palestra "Julia para Pythonistas", apresentada na PythonSul 2018: <a href="https://drive.google.com/file/d/1LIAlM_Nrg3LbF3iTiZcfO7f7vDP2fgNX/view?usp=sharing">slides (arquivo .pdf)</a>; <a href="https://github.com/melissawm/juliapythonistas">repositório no github</a>.
+* Slides for the talk "New stopping criteria for the Block-Lanczos Spectral Projected Gradient algorithm with applications to large-scale Procrustes problems", presented at **XII Brazilian Workshop on Continuous Optimization**: <a target="new" href="https://drive.google.com/file/d/1lGyvwTAkOkv0tIA76MAXOqxcawx-LSOp/view?usp=sharing">.pdf file</a>
+* Talk "Julia para Pythonistas", presented at **PythonSul 2018** *(in portuguese)*: <a target="new" href="https://drive.google.com/file/d/1LIAlM_Nrg3LbF3iTiZcfO7f7vDP2fgNX/view?usp=sharing">slides (.pdf file)</a>; <a target="new" href="https://github.com/melissawm/juliapythonistas">GitHub repository</a>
 
 2017
 ====
 
-* Slides do trabalho apresentado no **15th EUROPT Workshop on Advances in Continuous Optimization**, em Montréal, Canadá: <a href="https://drive.google.com/file/d/16YEe9HCf7AXWCZw9sbbmnqTTIdB9Pi0c/view?usp=sharing">A new Python package for the solution of Procrustes Problems</a>
-* Repositório da Palestra "Telling a story with your code: Literate Programming with Notebooks", apresentada remotamente na <a href="https://rse.ac.uk/conf2017/">Second Conference of Research Software Engineers (RSE17)</a>: <a href="https://github.com/melissawm/rse2017">github</a>, <a href="https://drive.google.com/file/d/1mRfqP24tU_RRc0ntpZhM2Sb2q7sYARiv/view?usp=sharing">video (.mp4)</a>
-* Repositório da Palestra "Programação Literária com Notebooks", apresentada no The Developers Conference (TDC Floripa): <a href="https://github.com/melissawm/lpwithnotebooks">github</a>
+* Slides for the talk "A new Python package for the solution of Procrustes Problems", presented at the **15th EUROPT Workshop on Advances in Continuous Optimization**: <a target="new" href="https://drive.google.com/file/d/16YEe9HCf7AXWCZw9sbbmnqTTIdB9Pi0c/view?usp=sharing"></a>; <a href="https://github.com/melissawm/skprocrustes">repository for the `skprocrustes` package</a>
+* Repository for the talk "Telling a story with your code: Literate Programming with Notebooks", presented remotely at the <a target="new" href="https://rse.ac.uk/conf2017/">Second Conference of Research Software Engineers (RSE17)</a>: <a target="new" href="https://github.com/melissawm/rse2017">GitHub</a>, <a target="new" href="https://drive.google.com/file/d/1mRfqP24tU_RRc0ntpZhM2Sb2q7sYARiv/view?usp=sharing">video (.mp4)</a>
+* Repository for the talk "Programação Literária com Notebooks", presented at **The Developers Conference (TDC Floripa)** *(in portuguese)*: <a target="new" href="https://github.com/melissawm/lpwithnotebooks">GitHub</a>
 
 2016
 ====
 
-* Repositório da palestra "Produzindo lindos relatórios com Pweave", apresentada na PythoBrasil[12]: <a href="https://github.com/melissawm/pweave_pybr12">github</a>
-* Repositório do curso "Computação Científica com Python, com aplicações à Oceanografia e à Biologia": <a href="https://github.com/melissawm/oceanobiopython">github</a>
-* Repositório do Tutorial "Automatizando a criação de PDF's com LaTeX e Python", do <b>SciPyLa (2016)</b>: <a href="https://github.com/melissawm/tutorialscipyla2016">github</a>
-
-2014
-====
-
-* Slides do curso de extensão "MATLAB Avançado" (2014):</b> (organizado pelo PET - Matemática (UFSC))
-  - <a target="new" href="https://drive.google.com/file/d/1hIhcVuRTdOzi17mDo1_1ZK9y3CT0PGJ7/view?usp=sharing">Aula 1</a>
-  - <a target="new" href="https://drive.google.com/file/d/1slYO52scyx3HYwnRkUG8Mud_5DrOAVW6/view?usp=sharing">Aula 2</a>
-  - <a target="new" href="https://drive.google.com/file/d/1J5VQXIoTJes76vQBBJOxfKcI-vczOtR3/view?usp=sharing">Aula 3</a>
-  - <a target="new" href="https://drive.google.com/file/d/1mfepdlYIjIP7rt91zE1a6QYj3vmCo5ad/view?usp=sharing">Aula 4</a>
-  - <a target="new" href="https://drive.google.com/file/d/1Lr0RxPiRQAOWeTsz6hOrvzAQRc4SSp1a/view?usp=sharing">Apostila completa</a>
+* Repository for the talk "Produzindo lindos relatórios com Pweave", presented at **PythoBrasil[12]** *(in portuguese)*: <a target="new" href="https://github.com/melissawm/pweave_pybr12">GitHub</a>
+* Repository for the short course "Computação Científica com Python, com aplicações à Oceanografia e à Biologia" *(in portuguese)*: <a target="new" href="https://github.com/melissawm/oceanobiopython">GitHub</a>
+* Repository for the tutorial "Automatizando a criação de PDF's com LaTeX e Python", from **SciPyLa 2016** *(in portuguese)*: <a target="new" href="https://github.com/melissawm/tutorialscipyla2016">GitHub</a>
+* Repository for the short course "Matlab Avançado", updated in 2016 *(in portuguese)*: <a target="new" href="https://github.com/melissawm/curso_matlab">GitHub</a>
+* Repository for the talk "Software Livre: passado, presente e futuro", presented at the **Semana Acadêmica da Ciência da Computação e Sistemas (SECCOM)** *(in portuguese)*: <a target="new" href="https://github.com/melissawm/palestrasoftwarelivre">GitHub</a>
 
 2013
 ====
 
-* Slides e exemplos do curso de extensão "Computação Científica com MATLAB" para Epagri:</b> <a href="https://drive.google.com/file/d/1lGzm7icf_mdRWrHf5AhXtF_plZre_4zA/view?usp=sharing">arquivo .zip</a>
-* Repositório da minha palestra "LaTeX para Não-Cientistas" (apresentada no <b>Blusol (2013)</b>): <a href="https://github.com/melissawm/latexnaocientistas">clique aqui</a>
-* Slides da minha palestra no <b>SoLiSC (2013)</b>: "Lindas Apresentações com o LaTeX" <a href="https://drive.google.com/file/d/1mqds210hkTTk7FkGHBLwsTxNOxkgJX6h/view?usp=sharing">arquivo .pdf</a>, <a target="new" href="https://github.com/melissawm/lindasapresentacoes"> repositório no github</a>
-* Slides da minha palestra na <b>pythonbrasil[9] (2013)</b>: "Migrando a Academia para o Python" <a target="new" href="https://drive.google.com/file/d/1_WaIZ4RPEeYYWJvyAC2PO34JqMIOmiVq/view?usp=sharing">arquivo .pdf</a>.
-* Slides e arquivos da minha palestra no <b>FISL14 (2013)</b>: "LaTeX como linguagem de programação" <a target="new" href="https://drive.google.com/file/d/1VMJxLPq_5TUYX1qEOvy4JbNYth9FahXM/view?usp=sharing">arquivo .zip</a>, <a href="http://github.com/melissawm/autolatex">repositório no github</a>
+* Slides and examples for the short course "Computação Científica com MATLAB" for Epagri *(in portuguese)*: <a target="new" href="https://drive.google.com/file/d/1lGzm7icf_mdRWrHf5AhXtF_plZre_4zA/view?usp=sharing">.zip file</a>
+* Repository for the talk "LaTeX para Não-Cientistas", presented at **Blusol 2013** *(in portuguese)*: <a target="new" href="https://github.com/melissawm/latexnaocientistas">GitHub</a>
+* Slides for the talk "Lindas Apresentações com o LaTeX", presented at **SoLiSC 2013** *(in portuguese)* <a target="new" href="https://drive.google.com/file/d/1mqds210hkTTk7FkGHBLwsTxNOxkgJX6h/view?usp=sharing">.pdf file</a>, <a target="new" href="https://github.com/melissawm/lindasapresentacoes">GitHub repository</a>
+* Slides for the talk "Migrando a Academia para o Python", presented at **pythonbrasil[9]** *(in portuguese)*: <a target="new" href="https://drive.google.com/file/d/1_WaIZ4RPEeYYWJvyAC2PO34JqMIOmiVq/view?usp=sharing">.pdf file</a>.
+* Slides and resources for the talk "LaTeX como linguagem de programação", presented at **FISL14** *(in portuguese)*: <a target="new" href="https://drive.google.com/file/d/1VMJxLPq_5TUYX1qEOvy4JbNYth9FahXM/view?usp=sharing">.zip file</a>, <a href="http://github.com/melissawm/autolatex">GitHub repository</a>
 
 2012
 ====
+* Slides and resources for the talk "LaTeX para Não-Cientistas", presented at **FISL13 (2012)** *(in portuguese)*: <a target="new" href="https://drive.google.com/file/d/1vLOS8kwn4Nmwkv1gbABwR8ZC97tbwG5-/view?usp=sharing">.zip file</a>
 
-* Slides e arquivos da minha palestra no <b>FISL13 (2012)</b>: "LaTeX para Não-Cientistas" <a target="new" href="https://drive.google.com/file/d/1vLOS8kwn4Nmwkv1gbABwR8ZC97tbwG5-/view?usp=sharing">arquivo .zip</a>
-* Slides da minha palestra no <b>SoLiSC (2011)</b>: "LaTeX para Não-Cientistas" <a target="new"	href="https://drive.google.com/file/d/1E3hKozhSy205_pFla_EdeezyspAw9ftX/view?usp=sharing">arquivo .zip</a>.
+
+2011
+====
+
+* Slides for the talk "LaTeX para Não-Cientistas", presented at **SoLiSC 2011** *(in portuguese)*: <a target="new" href="https://drive.google.com/file/d/1E3hKozhSy205_pFla_EdeezyspAw9ftX/view?usp=sharing">.zip file</a>.
+* Resources for the Basic Matlab course for math students at UFSC: <a target="new" href="https://github.com/melissawm/matlabbasico">GitHub repository</a>
+

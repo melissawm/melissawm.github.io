@@ -297,6 +297,7 @@ tbody tr:nth-child(odd) th {
     display: none;
   }
 }
+
 /* Sidebar
  *
  * The sidebar is the drawer, the item we toggle with the hamburger
