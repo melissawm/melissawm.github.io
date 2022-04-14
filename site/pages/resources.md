@@ -14,10 +14,24 @@ Highlights
 * Linear Programming course material *(in portuguese)*: <a href="https://www.overleaf.com/read/kycmpxvpcznr">Overleaf file</a>
 * Tutorial "Uma introdução ao Python Científico: NumPy, SciPy e Matplotlib" *(in portuguese)*: <a href="https://github.com/melissawm/tutorial-pybr2020">GitHub repository</a>
 
+2022
+====
+
+* Slides for the keynote "Beyond the basics: contributor experience, diversity and culture in open source projects", presented at **PyData Berlin/PyCon DE 2022**: <a target="new" href="https://drive.google.com/file/d/1Uxxk-BWF4JvpYn-pUQOIMujXA0d7x8zp/view?usp=sharing">.pdf file</a>
+
+2021
+====
+
+* Slides for the talk "Construir comunidades con documentación", presented at the **Python Bucaramanga meetup** on November 2021 *(in spanish)*: <a target="new" href="https://drive.google.com/file/d/1rlfaa-O1lyQlsT2H5m85_kzI6TQhrnke/view?usp=sharing">.pdf file</a>
+* Slides for the talk "Fatos interessantes sobre arrays, matrizes e tensores: o número 3 vai te surpreender", presented at **Python Brasil 2021** *(in portuguese)*: <a target="new" href="https://hackmd.io/@melissawm/rkXK894Ad">link</a>
+* Slides for the talk "NumPy Newcomer's Hour: an experiment on community building", presented at the **PyCon 2021 Maintainer's Summit**: <a target="new" href="https://drive.google.com/file/d/17AftTtrImsCiPWZL19zZPzBtV_R-MKlw/view?usp=sharing">.pdf file</a>
+* Slides for the talk "Como contribuir para o (projeto) NumPy", presented at the **PyLadies SP meetup** on February 2021 *(in portuguese)*: <a target="new" href="https://drive.google.com/file/d/1JSffjA28-c4Mb7oclBLGZdBGQmzPCJo1/view?usp=sharing">.pdf file</a> 
+* Slides for the talk "Intro to Sphinx for Python documentation", presented at **DataUmbrella**: <a target="new" href="https://hackmd.io/@melissawm/SkjCa3OkO#/">link</a>
+
 2020
 ====
 
-* Slides for the talk "Community Building through Documentation", presented at **PyData Cambridge Meetup 2020** <a target="new" href="https://drive.google.com/file/d/1bVJjklS_8bz5Tnd8uBfYQevzf6vedX2U/view?usp=sharing">.pdf file</a>
+* Slides for the talk "Community Building through Documentation", presented at **PyData Cambridge Meetup 2020**: <a target="new" href="https://drive.google.com/file/d/1bVJjklS_8bz5Tnd8uBfYQevzf6vedX2U/view?usp=sharing">.pdf file</a>
 * Slides for the keynote "Mente de Principiante" (Beginner's Mind), presented at **Python Brasil 2020** *(in portuguese)*: <a target="new" href="https://drive.google.com/file/d/1TZI8a4R691Qn93Z_Cq8u-pnlyX_avaW1/view?usp=sharing">.pdf file</a>
 * Repository for the tutorial "Uma introdução ao Python Científico: NumPy, SciPy e Matplotlib", presented at **Python Brasil 2020** *(in portuguese)*: <a target="new" href="https://github.com/melissawm/tutorial-pybr2020">GitHub</a>
 * Slides for the talk "O Ecossistema Científico no Python", presented at **Meetup CiDAMAS** *(in portuguese)*: <a target="new" href="https://github.com/melissawm/intro-scipy-stack">GitHub repository</a> (a previous version was also presented at the **Python Floripa** meetup).
