@@ -20,7 +20,7 @@ Eu trabalho na [Quansight](https://quansight.com/), e dedico meu tempo às
 bibliotecas [NumPy](https://numpy.org), [SciPy](https://scipy.org) e outros
 projetos open source. Eu sou apaixonada por educação, mentoria, e estou
 envolvida com a comunidade Python já há algum tempo. Você pode encontrar os
-slides das minhas palestras e aulas [aqui](pt_br/recursos/) ou no meu
+slides das minhas palestras e aulas [aqui](../pt_br/recursos/) ou no meu
 [GitHub](https://github.com/melissawm); fique à vontade para usar esses
 materiais de acordo com as licenças determinadas em cada repositório.
 
