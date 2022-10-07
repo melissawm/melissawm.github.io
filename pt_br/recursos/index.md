@@ -3,7 +3,7 @@
 .. date: 2020-12-18 8:00:00 UTC-03:00
 .. tags: resources
 .. author: melissawm
-.. link: https://melissawm.github.io/resources/
+.. link: https://melissawm.github.io/pt_br/recursos/
 .. description:
 .. category: page
 
@@ -13,6 +13,21 @@ Destaques
 * Curso completo de Álgebra Linear: <a href="https://github.com/melissawm/algebralinear">repositório no GitHub</a>
 * Curso de Programacão Linear: <a href="https://www.overleaf.com/read/kycmpxvpcznr">arquivo no Overleaf</a>
 * Tutorial "Uma introdução ao Python Científico: NumPy, SciPy e Matplotlib": <a href="https://github.com/melissawm/tutorial-pybr2020">repositório no GitHub</a>
+
+2022
+====
+
+* Slides do keynote "Beyond the basics: contributor experience, diversity and culture in open source projects", apresentado na **PyData Berlin/PyCon DE 2022**: <a target="new" href="https://drive.google.com/file/d/1Uxxk-BWF4JvpYn-pUQOIMujXA0d7x8zp/view?usp=sharing">.pdf file</a> (<a target="new" href="https://www.youtube.com/watch?v=lQWDRg99B6w">vídeo no Youtube</a>)
+* Vídeo da apresentação "Contributing to SciPy", apresentada no **Data Umbrella**: <a target="new" href="https://www.youtube.com/watch?v=V1FCSijy460">no Youtube</a>
+
+2021
+====
+
+* Slides da palestra "Construir comunidades con documentación", apresentada no **Python Bucaramanga meetup** em Novembro de 2021 *(em espanhol)*: <a target="new" href="https://drive.google.com/file/d/1rlfaa-O1lyQlsT2H5m85_kzI6TQhrnke/view?usp=sharing">arquivo .pdf</a>
+* Slides da palestra "Fatos interessantes sobre arrays, matrizes e tensores: o número 3 vai te surpreender", apresentada na **Python Brasil 2021**: <a target="new" href="https://hackmd.io/@melissawm/rkXK894Ad">link</a>
+* Slides da palestra "NumPy Newcomer's Hour: an experiment on community building", apresentada na **PyCon 2021 Maintainer's Summit**: <a target="new" href="https://drive.google.com/file/d/17AftTtrImsCiPWZL19zZPzBtV_R-MKlw/view?usp=sharing">arquivo .pdf</a>
+* Slides da palestra "Como contribuir para o (projeto) NumPy", apresentada no **PyLadies SP meetup** em Fevereiro de 2021: <a target="new" href="https://drive.google.com/file/d/1JSffjA28-c4Mb7oclBLGZdBGQmzPCJo1/view?usp=sharing">arquivo .pdf</a> 
+* Slides da palestra "Intro to Sphinx for Python documentation", apresentada no **DataUmbrella**: <a target="new" href="https://hackmd.io/@melissawm/SkjCa3OkO#/">link</a> (<a target="new" href="https://www.youtube.com/watch?v=tXWscUSYdBs">vídeo no YouTube</a>)
 
 2020
 ====
