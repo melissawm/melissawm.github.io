@@ -17,7 +17,8 @@ Highlights
 2022
 ====
 
-* Slides for the keynote "Beyond the basics: contributor experience, diversity and culture in open source projects", presented at **PyData Berlin/PyCon DE 2022**: <a target="new" href="https://drive.google.com/file/d/1Uxxk-BWF4JvpYn-pUQOIMujXA0d7x8zp/view?usp=sharing">.pdf file</a>
+* Slides for the keynote "Beyond the basics: contributor experience, diversity and culture in open source projects", presented at **PyData Berlin/PyCon DE 2022**: <a target="new" href="https://drive.google.com/file/d/1Uxxk-BWF4JvpYn-pUQOIMujXA0d7x8zp/view?usp=sharing">.pdf file</a> (<a target="new" href="https://www.youtube.com/watch?v=lQWDRg99B6w">video on Youtube</a>)
+* Video for presentation "Contributing to SciPy", presented at **Data Umbrella**: <a target="new" href="https://www.youtube.com/watch?v=V1FCSijy460">on Youtube</a>
 
 2021
 ====
@@ -26,7 +27,7 @@ Highlights
 * Slides for the talk "Fatos interessantes sobre arrays, matrizes e tensores: o número 3 vai te surpreender", presented at **Python Brasil 2021** *(in portuguese)*: <a target="new" href="https://hackmd.io/@melissawm/rkXK894Ad">link</a>
 * Slides for the talk "NumPy Newcomer's Hour: an experiment on community building", presented at the **PyCon 2021 Maintainer's Summit**: <a target="new" href="https://drive.google.com/file/d/17AftTtrImsCiPWZL19zZPzBtV_R-MKlw/view?usp=sharing">.pdf file</a>
 * Slides for the talk "Como contribuir para o (projeto) NumPy", presented at the **PyLadies SP meetup** on February 2021 *(in portuguese)*: <a target="new" href="https://drive.google.com/file/d/1JSffjA28-c4Mb7oclBLGZdBGQmzPCJo1/view?usp=sharing">.pdf file</a> 
-* Slides for the talk "Intro to Sphinx for Python documentation", presented at **DataUmbrella**: <a target="new" href="https://hackmd.io/@melissawm/SkjCa3OkO#/">link</a>
+* Slides for the talk "Intro to Sphinx for Python documentation", presented at **DataUmbrella**: <a target="new" href="https://hackmd.io/@melissawm/SkjCa3OkO#/">link</a> (<a target="new" href="https://www.youtube.com/watch?v=tXWscUSYdBs">video on YouTube</a>)
 
 2020
 ====
