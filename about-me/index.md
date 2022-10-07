@@ -11,9 +11,9 @@
 
 Hi there!
 
-I am a mathematician and software engineer located in Florianópolis, Brazil. I have a 6-year-old son and enjoy crocheting, knitting, cross-stitch embroidery and all sorts of crafts. I am interested in math, programming, free/open-source software and communities, crafts, science fiction and parenting. My pronouns are she/her. 
+I am a mathematician and Senior Developer Experience Engineer located in Florianópolis, Brazil. I have an 8-year-old son and enjoy crocheting, knitting, cross-stitch embroidery and all sorts of crafts. I am interested in math, programming, free/open-source software and communities, crafts, science fiction and parenting. My pronouns are she/her. 
 
-I work at [Quansight](https://quansight.com/), and dedicate my time to [NumPy](https://numpy.org) and other open-source projects. I care deeply about teaching, mentoring, and have been involved in the Python community for some time. You can find most of my talk slides on GitHub; feel free to use those according to the licenses stated in each repo. 
+I work at [Quansight](https://quansight.com/), and dedicate my time to [NumPy](https://numpy.org), [SciPy](https://scipy.org) and other open-source projects. I care deeply about teaching, mentoring, and have been involved in the Python community for some time. You can find most of my talk slides on GitHub; feel free to use those according to the licenses stated in each repo. 
 
 You can find me on [Twitter](https://twitter.com/melissawm) and [LinkedIn](https://linkedin.com/in/axequalsb), and you can also reach me via email at `melissawm@gmail.com`.
 
