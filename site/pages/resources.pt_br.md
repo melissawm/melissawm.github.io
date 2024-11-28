@@ -12,11 +12,26 @@ Destaques
 
 * Curso completo de Álgebra Linear: <a href="https://github.com/melissawm/algebralinear">repositório no GitHub</a>
 * Curso de Programacão Linear: <a href="https://www.overleaf.com/read/kycmpxvpcznr">arquivo no Overleaf</a>
-* Tutorial "Uma introdução ao Python Científico: NumPy, SciPy e Matplotlib": <a href="https://github.com/melissawm/tutorial-pybr2020">repositório no GitHub</a>
+* Tutorial "Introdução ao Python Científico e para Data Science" *(in portuguese)*: <a href="https://github.com/melissawm/tutorial-pysul2024">GitHub repository</a>
+
+2024
+====
+
+* Slides para a keynote "Writing and maintaining friendly (and interesting) docs", apresentada na **PloneConf Brasília/Python Cerrado 2024** em Brasília *(em inglês)*: <a href="https://docs.google.com/presentation/d/1ArNctAGwRyGIAYBlMreP0zUmV3Zs7Z2-E1eiGwgvF0Y/edit?usp=sharing">link</a>
+* Slides para a keynote "Open Source for Open Science", apresentada no **pyOpenSci Fall Festival 2024**, online *(em inglês)*: <a href="https://docs.google.com/presentation/d/1htgUtLG-XkpX2smWA8495zy7w2rZ0ckg/edit?usp=sharing&ouid=100285823011991353639&rtpof=true&sd=true">link</a>
+* Materiais para o tutorial "Introdução ao Python Científico e para Data Science", apresentada na **Python Sul 2024** em Florianópolis: <a href="https://github.com/melissawm/tutorial-pysul2024">repositório no GitHub</a>, <a href="https://melissawm.github.io/tutorial-pysul2024">site</a>
+
+2023
+====
+
+* Slides para a palestra "Livre, aberto, proprietário: que diferença faz?", apresentada na **Python Brasil 2023** em Caxias do Sul: <a target="new" href=https://docs.google.com/presentation/d/1bvZJUJjF8p-_ZGtufr-SxIeJpdfBRKNmcAF9u99vA10/edit?usp=sharing">link</a>
+* Slides para a palestra "Contributor Experience: Why it matters", co-apresentada com Inessa Pawson e Noa Tamir na **SciPy 2023**, em Austin *(em inglês)*: <a href="https://docs.google.com/presentation/d/1WygGNSeMV_QNN8rM6pn4vFG-d-0txOakXJBn7ZaeCko/edit?usp=sharing">link</a>
 
 2022
 ====
 
+* Slides para a keynote "Can we optimize communities?", apresentada na **PyData NYC 2022**, em Nova Iorque *(em inglês)*: <a href="https://docs.google.com/presentation/d/1p_OP3YeETdL-GlkPyXVMFFLZrztUNVIvP5Yo4MdMj28/edit?usp=sharing">link</a>
+* Slides para a palestra "Decifrando o Sphinx: Os enigmas da documentação técnica", apresentada na **Python Brasil 2022**, em Manaus: <a href="https://docs.google.com/presentation/d/1Rs-X7e7HjTZSvP_EzV3280bdxQApGcDWp6r3W1FVVR0/edit?usp=sharing">link</a>
 * Slides do keynote "Beyond the basics: contributor experience, diversity and culture in open source projects", apresentado na **PyData Berlin/PyCon DE 2022**: <a target="new" href="https://drive.google.com/file/d/1Uxxk-BWF4JvpYn-pUQOIMujXA0d7x8zp/view?usp=sharing">.pdf file</a> (<a target="new" href="https://www.youtube.com/watch?v=lQWDRg99B6w">vídeo no Youtube</a>)
 * Vídeo da apresentação "Contributing to SciPy", apresentada no **Data Umbrella**: <a target="new" href="https://www.youtube.com/watch?v=V1FCSijy460">no Youtube</a>
 
