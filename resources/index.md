@@ -12,11 +12,26 @@ Highlights
 
 * Complete Linear Algebra course *(in portuguese)*: <a href="https://github.com/melissawm/algebralinear">GitHub repository</a>
 * Linear Programming course material *(in portuguese)*: <a href="https://www.overleaf.com/read/kycmpxvpcznr">Overleaf file</a>
-* Tutorial "Uma introdução ao Python Científico: NumPy, SciPy e Matplotlib" *(in portuguese)*: <a href="https://github.com/melissawm/tutorial-pybr2020">GitHub repository</a>
+* Tutorial "Introdução ao Python Científico e para Data Science" *(in portuguese)*: <a href="https://github.com/melissawm/tutorial-pysul2024">GitHub repository</a>
+
+2024
+====
+
+* Slides for the keynote talk "Writing and maintaining friendly (and interesting) docs", presented at **PloneConf Brasília/Python Cerrado 2024** in Brasília: <a href="https://docs.google.com/presentation/d/1ArNctAGwRyGIAYBlMreP0zUmV3Zs7Z2-E1eiGwgvF0Y/edit?usp=sharing">link</a>
+* Slides for the keynote talk "Open Source for Open Science", presented at the **pyOpenSci Fall Festival 2024**, online: <a href="https://docs.google.com/presentation/d/1htgUtLG-XkpX2smWA8495zy7w2rZ0ckg/edit?usp=sharing&ouid=100285823011991353639&rtpof=true&sd=true">link</a>
+* Materials for the tutorial "Introdução ao Python Científico e para Data Science", presented at **Python Sul 2024** in Florianópolis *(in portuguese)*: <a href="https://github.com/melissawm/tutorial-pysul2024">GitHub repository</a>, <a href="https://melissawm.github.io/tutorial-pysul2024">site</a>
+
+2023
+====
+
+* Slides for the talk "Livre, aberto, proprietário: que diferença faz?", presented at **Python Brasil 2023** in Caxias do Sul *(in Portuguese)*: <a target="new" href=https://docs.google.com/presentation/d/1bvZJUJjF8p-_ZGtufr-SxIeJpdfBRKNmcAF9u99vA10/edit?usp=sharing">link</a>
+* Slides for the talk "Contributor Experience: Why it matters", co-presented with Inessa Pawson and Noa Tamir at **SciPy 2023**, in Austin: <a href="https://docs.google.com/presentation/d/1WygGNSeMV_QNN8rM6pn4vFG-d-0txOakXJBn7ZaeCko/edit?usp=sharing">link</a>
 
 2022
 ====
 
+* Slides for the keynote talk "Can we optimize communities?", presented at **PyData NYC 2022**, New York: <a href="https://docs.google.com/presentation/d/1p_OP3YeETdL-GlkPyXVMFFLZrztUNVIvP5Yo4MdMj28/edit?usp=sharing">link</a>
+* Slides for the talk "Decifrando o Sphinx: Os enigmas da documentação técnica", presented at **Python Brasil 2022**, in Manaus *(in Portuguese)*: <a href="https://docs.google.com/presentation/d/1Rs-X7e7HjTZSvP_EzV3280bdxQApGcDWp6r3W1FVVR0/edit?usp=sharing">link</a>
 * Slides for the keynote "Beyond the basics: contributor experience, diversity and culture in open source projects", presented at **PyData Berlin/PyCon DE 2022**: <a target="new" href="https://drive.google.com/file/d/1Uxxk-BWF4JvpYn-pUQOIMujXA0d7x8zp/view?usp=sharing">.pdf file</a> (<a target="new" href="https://www.youtube.com/watch?v=lQWDRg99B6w">video on Youtube</a>)
 * Video for presentation "Contributing to SciPy", presented at **Data Umbrella**: <a target="new" href="https://www.youtube.com/watch?v=V1FCSijy460">on Youtube</a>
 
