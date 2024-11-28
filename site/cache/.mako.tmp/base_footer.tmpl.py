@@ -5,9 +5,9 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1665163078.4592085
+_modified_time = 1732805788.4394176
 _enable_loop = True
-_template_filename = '/workspace/.pyenv_mirror/user/current/lib/python3.8/site-packages/nikola/data/themes/base/templates/base_footer.tmpl'
+_template_filename = '/usr/local/python/3.12.1/lib/python3.12/site-packages/nikola/data/themes/base/templates/base_footer.tmpl'
 _template_uri = 'base_footer.tmpl'
 _source_encoding = 'utf-8'
 _exports = ['html_footer']
@@ -45,6 +45,6 @@ def render_html_footer(context):
 
 """
 __M_BEGIN_METADATA
-{"filename": "/workspace/.pyenv_mirror/user/current/lib/python3.8/site-packages/nikola/data/themes/base/templates/base_footer.tmpl", "uri": "base_footer.tmpl", "source_encoding": "utf-8", "line_map": {"16": 0, "21": 2, "22": 10, "28": 3, "34": 3, "35": 4, "36": 5, "37": 6, "38": 6, "39": 7, "40": 7, "46": 40}}
+{"filename": "/usr/local/python/3.12.1/lib/python3.12/site-packages/nikola/data/themes/base/templates/base_footer.tmpl", "uri": "base_footer.tmpl", "source_encoding": "utf-8", "line_map": {"16": 0, "21": 2, "22": 10, "28": 3, "34": 3, "35": 4, "36": 5, "37": 6, "38": 6, "39": 7, "40": 7, "46": 40}}
 __M_END_METADATA
 """

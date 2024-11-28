@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1665163078.3855445
+_modified_time = 1732805788.5380638
 _enable_loop = True
 _template_filename = 'themes/jidn/templates/post_header.tmpl'
 _template_uri = 'post_header.tmpl'
@@ -45,8 +45,8 @@ def render_body(context,**pageargs):
 def render_html_title(context):
     __M_caller = context.caller_stack._push_frame()
     try:
-        post = context.get('post', UNDEFINED)
         title = context.get('title', UNDEFINED)
+        post = context.get('post', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         if title and not post.meta('hidetitle'):
@@ -64,9 +64,9 @@ def render_html_title(context):
 def render_html_translations(context,post):
     __M_caller = context.caller_stack._push_frame()
     try:
-        lang = context.get('lang', UNDEFINED)
-        len = context.get('len', UNDEFINED)
         messages = context.get('messages', UNDEFINED)
+        len = context.get('len', UNDEFINED)
+        lang = context.get('lang', UNDEFINED)
         translations = context.get('translations', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
@@ -75,6 +75,7 @@ def render_html_translations(context,post):
             __M_writer(str(messages("Also available in:")))
             __M_writer('</h3>\n')
             for langname in translations.keys():
+                pass
                 if langname != lang and post.is_translation_available(langname):
                     __M_writer('            <p><a href="')
                     __M_writer(str(post.permalink(langname)))
@@ -92,9 +93,9 @@ def render_html_translations(context,post):
 def render_html_sourcelink(context):
     __M_caller = context.caller_stack._push_frame()
     try:
-        post = context.get('post', UNDEFINED)
-        show_sourcelink = context.get('show_sourcelink', UNDEFINED)
         messages = context.get('messages', UNDEFINED)
+        show_sourcelink = context.get('show_sourcelink', UNDEFINED)
+        post = context.get('post', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         if show_sourcelink:
@@ -112,10 +113,10 @@ def render_html_post_header(context):
     __M_caller = context.caller_stack._push_frame()
     try:
         date_format = context.get('date_format', UNDEFINED)
+        post = context.get('post', UNDEFINED)
         def html_translations(post):
             return render_html_translations(context,post)
         site_has_comments = context.get('site_has_comments', UNDEFINED)
-        post = context.get('post', UNDEFINED)
         def html_title():
             return render_html_title(context)
         comments = _mako_get_namespace(context, 'comments')
@@ -149,6 +150,6 @@ def render_html_post_header(context):
 
 """
 __M_BEGIN_METADATA
-{"filename": "themes/jidn/templates/post_header.tmpl", "uri": "post_header.tmpl", "source_encoding": "utf-8", "line_map": {"23": 2, "26": 3, "29": 0, "34": 2, "35": 3, "36": 11, "37": 24, "38": 30, "39": 53, "45": 5, "51": 5, "52": 6, "53": 7, "54": 9, "55": 9, "56": 9, "57": 9, "58": 9, "64": 13, "72": 13, "73": 14, "74": 15, "75": 16, "76": 16, "77": 17, "78": 18, "79": 19, "80": 19, "81": 19, "82": 19, "83": 19, "84": 19, "85": 19, "86": 22, "92": 26, "99": 26, "100": 27, "101": 28, "102": 28, "103": 28, "104": 28, "105": 28, "111": 32, "123": 32, "124": 34, "125": 34, "126": 36, "127": 38, "128": 39, "129": 39, "130": 39, "131": 43, "132": 45, "133": 45, "134": 45, "135": 45, "136": 45, "137": 45, "138": 47, "139": 48, "140": 48, "141": 48, "142": 50, "143": 51, "144": 51, "150": 144}}
+{"filename": "themes/jidn/templates/post_header.tmpl", "uri": "post_header.tmpl", "source_encoding": "utf-8", "line_map": {"23": 2, "26": 3, "29": 0, "34": 2, "35": 3, "36": 11, "37": 24, "38": 30, "39": 53, "45": 5, "51": 5, "52": 6, "53": 7, "54": 9, "55": 9, "56": 9, "57": 9, "58": 9, "64": 13, "72": 13, "73": 14, "74": 15, "75": 16, "76": 16, "77": 17, "79": 18, "80": 19, "81": 19, "82": 19, "83": 19, "84": 19, "85": 19, "86": 19, "87": 22, "93": 26, "100": 26, "101": 27, "102": 28, "103": 28, "104": 28, "105": 28, "106": 28, "112": 32, "124": 32, "125": 34, "126": 34, "127": 36, "128": 38, "129": 39, "130": 39, "131": 39, "132": 43, "133": 45, "134": 45, "135": 45, "136": 45, "137": 45, "138": 45, "139": 47, "140": 48, "141": 48, "142": 48, "143": 50, "144": 51, "145": 51, "151": 145}}
 __M_END_METADATA
 """
